@@ -1,0 +1,225 @@
+/* Medovik Scientific Kitchen — UI/UX Pro Max applied rules
+   A visual/workflow layer only. All scientific engines and saved data remain unchanged.
+   Design: editorial pâtisserie × precise workbench; RTL; offline system fonts. */
+:root {
+  --bg-canvas: #f4f2ec;
+  --bg-surface: #ffffff;
+  --bg-soft: #f8f6f1;
+  --bg-elevated: #efe9df;
+  --ink-strong: #262b29;
+  --ink-body: #39423e;
+  --ink-muted: #5e6a64;
+  --line-soft: #e0e4de;
+  --line-strong: #acb9af;
+  --accent-primary: #276a53;
+  --accent-primary-strong: #174d3b;
+  --accent-warm: #8b5c33;
+  --accent-honey: #b6792a;
+  --state-success: #24674d;
+  --state-warning: #8d5417;
+  --state-danger: #9b3734;
+  --state-info: #316179;
+  --sidebar-width: 260px;
+  --radius-card: 18px;
+  --radius-input: 11px;
+  --font-ui: 'Noto Sans Arabic','Segoe UI',sans-serif;
+  --font-heading: 'Noto Kufi Arabic','Noto Sans Arabic',sans-serif;
+  --font-mono: 'DejaVu Sans Mono',monospace;
+  --shadow-panel: 0 7px 26px rgba(28,43,35,.038);
+  --shadow-soft: 0 14px 38px rgba(28,43,35,.07);
+  --focus-ring: #e5a64b;
+}
+html{scroll-behavior:auto}
+body{background:var(--bg-canvas);color:var(--ink-body);font-size:15px;line-height:1.75;-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font-family:var(--font-ui)}
+button{touch-action:manipulation}
+button:active{filter:brightness(.96)}
+:where(button,input,select,textarea,a,summary):focus-visible{outline:3px solid var(--focus-ring)!important;outline-offset:3px!important}
+.skip-link{position:fixed;top:-90px;right:16px;z-index:1500;background:#fff;color:#194f3d;padding:12px 18px;border:2px solid #194f3d;border-radius:12px;font-weight:700}
+.skip-link:focus{top:12px}
+.app-shell{background:var(--bg-canvas);grid-template-columns:var(--sidebar-width) minmax(0,1fr)}
+.app-main{width:100%;max-width:1680px;margin-inline:auto;padding:25px clamp(18px,3.1vw,52px) 70px;min-width:0}
+.sidebar-shell{min-height:100dvh;height:100dvh;overflow-y:auto;position:sticky;top:0;padding:31px 16px 23px;gap:24px;border-left:0;background:#192a25;color:#e5efea;box-shadow:none;scrollbar-color:#4d6a5f transparent}
+.brand-block{padding:0 7px 28px;border-bottom:1px solid #334b41;justify-content:flex-start;gap:13px}
+.brand-mark{width:46px;height:46px;border-radius:14px;background:#dcae6b;color:#26342d;font-family:Georgia,serif;font-size:28px;font-weight:700;box-shadow:0 2px 15px #111f191a}
+.brand-text strong{color:#fff;font-size:19px;letter-spacing:.095em;font-family:Georgia,serif}
+.brand-text span{font-size:11px;color:#c4d4cd;line-height:1.6}
+.sidebar-group{gap:4px}
+.sidebar-group-label{font-size:11px;letter-spacing:.02em;color:#aabfb4;padding:0 15px 6px;font-weight:700}
+.sidebar-step{min-height:49px;border:1px solid transparent;border-radius:11px;padding:8px 10px;color:#d4e2da;text-align:right;gap:11px;transition:background-color .16s,color .16s,border-color .16s}
+.sidebar-step-label{font-size:12.5px;font-weight:500;line-height:1.5}
+.sidebar-step-number{width:30px;height:30px;flex-basis:30px;border-radius:9px;background:#34473f;color:#d0ded4;font:600 12px/30px var(--font-mono)}
+.sidebar-step:hover{transform:none;background:#2b463b;border-color:#3a5b4a;color:white}
+.sidebar-step.is-active{background:#f0f7ed;color:#1c513e;border-color:#f0f7ed;box-shadow:0 4px 20px #0d211d44}
+.sidebar-step.is-active .sidebar-step-number{background:#286b53;color:white}
+.sidebar-note{border:1px solid #385146;border-radius:14px;padding:16px;margin-top:auto;background:#243c32;color:#edf6ef;gap:10px}
+.sidebar-note strong{color:#fff;font-size:13px}
+.sidebar-note p,.sidebar-note .summary-label{color:#cad9d1;font-size:11px;line-height:1.65}
+.sidebar-note .summary-value{color:#fff;font-size:11px;text-align:left;overflow-wrap:anywhere;font-family:var(--font-ui)}
+.topbar{align-items:center;padding:3px 0 20px;border-bottom:1px solid var(--line-soft);margin-bottom:22px;gap:22px}
+.topbar-copy{gap:2px;min-width:0}
+.topbar-eyebrow{font:700 11px/1.8 'DejaVu Sans Mono',monospace;letter-spacing:.04em;color:var(--accent-primary)}
+.topbar-title{font-size:21px;line-height:1.45;font-weight:750}
+.topbar-subtitle{font-size:12px;line-height:1.7;color:var(--ink-muted)}
+.topbar-actions{gap:9px;justify-content:flex-end;flex-shrink:0}
+.btn{min-height:44px;padding:10px 19px;border-radius:11px;font-weight:700;font-size:13px;box-shadow:none;line-height:1.6}
+.btn:hover{transform:none}
+.btn-primary{background:var(--accent-primary);border-color:var(--accent-primary);color:#fff}
+.btn-primary:hover{background:var(--accent-primary-strong)}
+.btn-secondary{background:white;border:1px solid #cbd7ce;color:var(--accent-primary-strong)}
+.btn-ghost{background:transparent;border-color:var(--line-soft);color:var(--ink-body)}
+.workspace-screen{gap:20px}
+.workflow-hero{position:relative;overflow:hidden;isolation:isolate;padding:26px clamp(20px,3vw,38px) 23px;background:#fff;border:1px solid var(--line-soft);border-radius:20px;box-shadow:var(--shadow-panel)}
+.workflow-hero:before{content:'';position:absolute;left:-64px;top:-102px;width:255px;height:255px;border:45px solid #f6efe4;border-radius:50%;z-index:-1;opacity:.7}
+.workflow-hero:after{content:'';position:absolute;left:80px;top:-26px;width:63px;height:63px;border:1px solid #e8d8bd;border-radius:50%;z-index:-1}
+.workflow-hero-top{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:9px}
+.workflow-phase-label{color:#20654e;font-weight:800;font-size:12px}
+.workflow-step-id{color:#e2e7df;font-family:Georgia,serif;font-size:42px;font-weight:700;line-height:1;direction:ltr}
+.workspace-heading{gap:7px;max-width:850px;padding-inline:0}
+.workspace-title{font-size:clamp(23px,3vw,34px);line-height:1.5;font-weight:800;letter-spacing:-.025em}
+.workspace-description{font-size:14px;max-width:800px;line-height:1.85;color:#59665e}
+.journey-progress{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:6px;margin-top:23px;direction:rtl}
+.journey-segment{height:5px;border-radius:10px;background:#e5ece7}
+.journey-segment.is-reached{background:#a6c7b8}
+.journey-segment.is-current{background:var(--accent-primary)}
+.workflow-context-chips{display:flex;gap:9px;flex-wrap:wrap;margin-top:17px}
+.workflow-context-chip{background:#f5f7f3;color:#38584b;border:1px solid #e1e9e1;border-radius:9px;padding:5px 12px;font-size:11.5px;font-weight:600;max-width:100%;overflow-wrap:anywhere}
+.workspace-layout{grid-template-columns:minmax(0,1.5fr) minmax(280px,.78fr);gap:20px}
+.workspace-main,.workspace-aside{gap:17px;min-width:0}
+.section-card,.aside-card,.comparison-card,.table-card,.notice-card,.empty-state,.tool-science-reference,.tool-troubleshooting-reference,.science-reference-block,.workflow-tools-hub,.result-card,.issue-block{box-shadow:var(--shadow-panel);border:1px solid var(--line-soft);border-radius:var(--radius-card);background:white}
+.section-card-head,.section-card-body,.step-footer,.aside-card,.comparison-card,.table-card,.notice-card,.empty-state,.workflow-tools-hub,.tool-science-reference,.tool-troubleshooting-reference,.science-reference-block{padding:22px 23px}
+.section-card-head{background:#fff;border-bottom:1px solid #edf0eb}
+.section-card-foot,.step-footer{background:#f8faf7;border-top-color:#e4ebe5}
+.section-title{font-size:19px;line-height:1.65}
+.section-subtitle{font-size:12.5px;max-width:72ch;color:var(--ink-muted)}
+.aside-card{background:#fafbf8}
+.aside-title{font-size:15px;border-bottom:1px solid #e3ebe4;padding-bottom:11px;margin-bottom:13px}
+.card-title,.table-title{font-size:17px}
+.form-input,.form-select,.form-textarea{background:white;border:1px solid #c5d3c9;min-height:45px;padding:10px 13px;border-radius:10px;color:#263a31}
+.form-input:hover,.form-select:hover,.form-textarea:hover{border-color:#789b88}
+.field-label{font-size:13px;color:#314b3c}
+.metric-card,.protocol-meta-card,.result-card{background:#f7f9f6;border:1px solid #dce8dd;border-radius:12px;padding:13px}
+.metric-value,.summary-value,.result-value,.num-cell{font-variant-numeric:tabular-nums}
+.metric-value{font-size:18px;color:#174d3b}
+.metric-label,.summary-label{font-size:12px}
+.protocol-stack{gap:13px}
+.protocol-block{border-inline-start-color:#a5c9b5;gap:12px}
+.protocol-index{background:#eaf2e8;color:#22654d}
+.protocol-title{font-size:16px;line-height:1.7}
+.protocol-step-fold{border:1px solid #dbe6dc;background:#fff;border-radius:13px;overflow:hidden}
+.protocol-step-fold>summary{min-height:48px;padding:13px 16px;background:#f6faf5;color:#2d533f;line-height:1.8}
+.protocol-step-fold[open]>summary{border-bottom:1px solid #dbe6dc}
+.protocol-step-active{outline:2px solid #387d60;outline-offset:1px}
+.cook-brief{background:#f0f7f1;border:1px solid #adcdb6;border-inline-start:5px solid #267251;box-shadow:none;padding:18px 21px;border-radius:15px}
+.cook-brief-eyebrow{font-size:12px;color:#205a42}
+.cook-brief-title{font-size:clamp(16px,2vw,21px);color:#173e2d;line-height:1.7}
+.cook-brief-warning{color:#665d4e;border-inline-start-color:#c79d54;font-size:12px}
+.optional-explanation>summary{background:#f2f6f1;border:1px solid #dfebe1;color:#225540;min-height:44px;display:flex;align-items:center}
+.step-footer{border-radius:0 0 16px 16px;gap:10px}
+.step-footer .btn{min-width:100px}
+.worksheet-table th,.worksheet-table td{padding:12px 10px;border-bottom:1px solid #e8efe8}
+.worksheet-table thead th{background:#f1f7f2}
+.workflow-tools-hub{box-shadow:none!important;border:none!important;background:transparent!important;padding:0!important}
+.tool-card{border:1px solid #e1e9df;background:#fcfdfa;border-radius:12px;cursor:pointer}
+.tool-card-copy{min-width:0;flex:1}
+.tool-card button{flex-shrink:0;white-space:nowrap}
+.tool-card:hover{background:#f5faf5;border-color:#a3c9ad}
+.tool-card-mark{border-color:#e0eadf;background:#edf4ea;color:#29614b}
+.drawer-overlay.is-open{background:rgba(15,27,21,.62)}
+.drawer-panel{background:#f8faf7;border-right-color:#dce8dc;box-shadow:0 0 50px #10271c40}
+.drawer-head{background:white;border-bottom-color:#dde5dd;padding:20px}
+.drawer-title{font-size:19px}
+.drawer-body{padding:20px}
+.app-notice{background:white;border:1px solid #dbe6db;border-radius:12px}
+.journey-dock{display:none}
+.mobile-rail{display:none;overflow:visible}
+
+@media(max-width:1180px){
+  .workspace-layout{grid-template-columns:minmax(0,1fr) minmax(240px,.72fr)}
+  .workspace-aside{order:initial}
+  .metric-grid,.compare-picker,.dimensions-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:960px){
+  .app-shell{grid-template-columns:minmax(0,1fr)}
+  .sidebar-shell{display:none}
+  .app-main{padding:17px clamp(14px,3.5vw,30px) 105px}
+  .topbar{flex-wrap:wrap;margin-bottom:12px;padding-bottom:15px}
+  .topbar-actions{flex-wrap:wrap;justify-content:flex-start}
+  .topbar-title{font-size:19px}
+  .topbar-subtitle{display:none}
+  .mobile-rail{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:6px;margin:0 0 17px;padding:0;overflow:visible}
+  .mobile-stage{min-height:59px;border-radius:11px;border:1px solid #d8e3d8;background:#fff;color:#385549;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:5px 3px;gap:2px;min-width:0;white-space:normal;box-shadow:none}
+  .mobile-stage-number{font:700 10px/1.4 'DejaVu Sans Mono',monospace;opacity:.65}
+  .mobile-stage-label{font-size:11px;font-weight:750;line-height:1.5;overflow-wrap:anywhere}
+  .mobile-stage.is-active{background:#255c47;border-color:#255c47;color:#fff;box-shadow:0 3px 11px #173a2c26}
+  .mobile-stage.is-active .mobile-stage-number{opacity:1}
+  .workflow-hero{padding:20px}
+  .workspace-layout{grid-template-columns:1fr}
+  .workspace-aside{order:initial}
+  .is-sticky{position:static}
+  .journey-dock{position:fixed;z-index:30;display:grid;grid-template-columns:minmax(75px,1fr) auto minmax(120px,1fr);align-items:center;gap:10px;bottom:0;left:0;right:0;padding:10px max(14px,env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(14px,env(safe-area-inset-left));background:rgba(255,255,255,.97);border-top:1px solid #d8e5d9;box-shadow:0 -9px 28px #1b3a2920;backdrop-filter:blur(12px)}
+  .journey-dock button{min-height:45px;min-width:0;padding:10px 12px;border-radius:11px;border:1px solid #c4d5c8;font-size:12px;font-weight:800;white-space:normal;line-height:1.5}
+  .journey-dock-prev{background:#f3f8f4;color:#205d46}
+  .journey-dock-next{background:var(--accent-primary);color:white;border-color:var(--accent-primary)!important}
+  .journey-dock-current{display:flex;flex-direction:column;text-align:center;align-items:center;line-height:1.3;gap:2px}
+  .journey-dock-counter{font:700 11px/1.5 'DejaVu Sans Mono',monospace;color:#587464;direction:ltr}
+  .journey-dock-current strong{font-size:12px;color:#294f3b;white-space:nowrap}
+  .step-footer{display:none}
+}
+@media(max-width:640px){
+  body{font-size:14px}
+  .app-main{padding:14px 12px 110px}
+  .topbar{gap:12px}
+  .topbar-actions{gap:6px;width:100%;flex-wrap:nowrap}
+  .topbar-actions .btn{flex:1;min-width:0;padding:9px 5px;font-size:11px;min-height:44px}
+  .topbar-title{font-size:18px}
+  .mobile-rail{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin-bottom:13px}
+  .mobile-stage{min-height:50px;border-radius:9px;flex-direction:row;gap:5px;padding:5px 2px}
+  .mobile-stage-label{font-size:12px}
+  .mobile-stage-number{font-size:10px}
+  .workflow-hero{padding:17px 16px 16px;border-radius:15px}
+  .workflow-hero:before{width:160px;height:160px;top:-95px;left:-90px;border-width:24px}
+  .workflow-step-id{font-size:34px}
+  .workspace-title{font-size:22px}
+  .workspace-description{font-size:12.5px;line-height:1.8}
+  .workflow-context-chips{gap:6px;margin-top:12px}
+  .workflow-context-chip{font-size:11px;padding:4px 7px}
+  .journey-progress{margin-top:15px;gap:4px}
+  .journey-segment{height:4px}
+  .section-card-head,.section-card-body,.section-card-foot,.aside-card,.comparison-card,.table-card,.notice-card,.empty-state,.workflow-tools-hub,.tool-science-reference,.tool-troubleshooting-reference,.science-reference-block{padding:16px}
+  .section-title{font-size:17px}
+  .metric-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .metric-card{padding:10px}
+  .metric-value{font-size:16px}
+  .protocol-fact-row{grid-template-columns:1fr;gap:4px}
+  .form-input,.form-select,.form-textarea{font-size:16px}
+  .journey-dock{gap:6px;grid-template-columns:minmax(63px,1fr) auto minmax(96px,1.12fr)}
+  .journey-dock button{font-size:11px;padding:8px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.001ms!important;transition-duration:.001ms!important}}
+@media print{.sidebar-shell,.mobile-rail,.topbar-actions,.journey-dock,.drawer-shell,.step-footer{display:none!important}.app-shell{display:block}.app-main{padding:0}.workflow-hero,.section-card,.aside-card{break-inside:avoid;box-shadow:none}}
+/* Reference library is independent of the six compulsory cooking stages. */
+.journey-progress.is-reference .journey-segment{background:#e7ece8}
+.mobile-stage.is-reference:not(.is-active){background:#f5f6f2;color:#566b60;border-style:dashed}
+.journey-dock-reference{grid-template-columns:minmax(142px,1fr) auto minmax(20px,.4fr)}
+.journey-dock-reference .journey-dock-prev{background:var(--accent-primary);color:#fff;border-color:var(--accent-primary)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.compare-mark{display:inline-block;margin-inline-start:4px;font-size:11px;font-weight:800}
+.compare-mark.is-max{color:var(--state-success)}
+.compare-mark.is-min{color:var(--state-warning)}
+.compare-mark.is-tie{color:var(--ink-muted);font-weight:600}
+.status-badge{display:inline-flex;align-items:center;padding:3px 9px;border-radius:999px;font-size:11px;font-weight:700;background:#eef4ef;color:#255c47;border:1px solid #cfe0d2}
+.status-badge.is-insufficient{background:#fdf2ef;color:var(--state-danger);border-color:#e9c3bc}
+.notice-card.is-warning{border-color:#dfb57c;background:#fff8ee}
+
+/* Kitchen Protocol Timers (Task 15) */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.kitchen-timers-strip{display:grid;gap:8px;margin:0 0 14px}
+.kitchen-timers-strip.is-empty{margin:0}
+.kitchen-timers-list{display:grid;gap:8px}
+.kitchen-timer-item{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px;border-radius:12px;border:1px solid #d9cbb8;background:#fffdf9}
+.kitchen-timer-readout{font-weight:700;font-size:.92rem}
+.kitchen-timer-readout[data-phase="window"]{color:#1d6b43}
+.kitchen-timer-readout[data-phase="overdue"]{color:#a63228}
+.kitchen-timer-notice{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.protocol-timer-start{margin-top:4px}

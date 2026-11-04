@@ -1,0 +1,70 @@
+.drawer-shell {
+  pointer-events: none;
+}
+
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  border: none;
+  background: rgba(45, 36, 28, 0.28);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms ease, visibility 200ms ease;
+  pointer-events: none;
+  z-index: 40;
+}
+
+.drawer-overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.drawer-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: min(540px, calc(100vw - 24px));
+  height: 100vh;
+  background: var(--bg-surface);
+  border-right: 1px solid var(--line-soft);
+  box-shadow: 14px 0 32px rgba(45, 36, 28, 0.16);
+  transform: translateX(-110%);
+  transition: transform 220ms ease;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+}
+
+.drawer-panel.is-open {
+  transform: translateX(0);
+}
+
+.drawer-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 18px 20px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.drawer-title {
+  margin: 4px 0 0;
+  color: var(--ink-strong);
+  font-family: var(--font-heading);
+  font-size: 18px;
+}
+
+.drawer-body {
+  flex: 1;
+  overflow: auto;
+  padding: 20px;
+}
+
+@media (max-width: 640px) {
+  .drawer-panel {
+    width: 100vw;
+  }
+}

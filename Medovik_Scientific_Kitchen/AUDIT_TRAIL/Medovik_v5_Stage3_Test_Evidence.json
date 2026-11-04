@@ -1,0 +1,208 @@
+{
+  "matrixStats": {
+    "recipes": 9,
+    "fillings": 9,
+    "ingredients": 27,
+    "fullAnalysisRuns": 1620,
+    "sampleMeta": {
+      "baseDoughSource": "classic_cooked_honey_soda_medovik",
+      "scaledDoughSource": null,
+      "baseFillingSource": "classic_sourcream_frosting"
+    }
+  },
+  "matrixErrors": [
+    {
+      "code": "ING_FRACTIONS_GT_1",
+      "message": "مجموع الكسور التركيبية يتجاوز 1",
+      "id": "powdered-sugar",
+      "name": "سكر بودرة",
+      "type": "sugar",
+      "sumFractions": 1.01,
+      "sugarFrac": 0.97,
+      "sumSweetFields": 0.97,
+      "deltaSweet": 0
+    },
+    {
+      "code": "ING_FRACTIONS_GT_1",
+      "message": "مجموع الكسور التركيبية يتجاوز 1",
+      "id": "butter",
+      "name": "زبدة",
+      "type": "fat",
+      "sumFractions": 1.02,
+      "sugarFrac": 0.01,
+      "sumSweetFields": 0.01,
+      "deltaSweet": 0
+    },
+    {
+      "code": "CHOCOLATE_ZERO_SUGAR",
+      "message": "الشوكولاتة مسجلة دون سكر",
+      "id": "chocolate-dark",
+      "name": "شوكولاتة داكنة",
+      "type": "chocolate",
+      "sumFractions": 1,
+      "sugarFrac": 0,
+      "sumSweetFields": 0,
+      "deltaSweet": 0
+    },
+    {
+      "code": "CHOCOLATE_ZERO_SUGAR",
+      "message": "الشوكولاتة مسجلة دون سكر",
+      "id": "chocolate-milk",
+      "name": "شوكولاتة بالحليب",
+      "type": "chocolate",
+      "sumFractions": 1,
+      "sugarFrac": 0,
+      "sumSweetFields": 0,
+      "deltaSweet": 0
+    }
+  ],
+  "uniqueWarnings": {
+    "scaledDoughLineageLostRuns": 1620,
+    "adjustedDoughLineageLostRuns": 324,
+    "coverageOmissions": [
+      "tetyanaSpartak",
+      "davidCooking",
+      "dinaFamily"
+    ],
+    "sugarDetailMismatch": [
+      {
+        "code": "ING_SUGAR_DETAIL_MISMATCH",
+        "message": "السكر الكلي لا يساوي مجموع أنواع السكر المفصلة",
+        "id": "flour",
+        "name": "دقيق",
+        "type": "flour",
+        "sumFractions": 1,
+        "sugarFrac": 0.01,
+        "sumSweetFields": 0,
+        "deltaSweet": -0.01
+      },
+      {
+        "code": "ING_SUGAR_DETAIL_MISMATCH",
+        "message": "السكر الكلي لا يساوي مجموع أنواع السكر المفصلة",
+        "id": "honey",
+        "name": "عسل",
+        "type": "sweetener",
+        "sumFractions": 1,
+        "sugarFrac": 0.82,
+        "sumSweetFields": 0.7,
+        "deltaSweet": -0.12
+      }
+    ]
+  },
+  "browser": {
+    "runbookPhases": [
+      "setup",
+      "dough",
+      "baking",
+      "filling",
+      "assembly",
+      "review"
+    ],
+    "mainStepOrder": [
+      "التهيئة",
+      "بروتوكول العجين والتحضير",
+      "الخبز",
+      "الحشو وشرح الحشو",
+      "مشاكل وحلول",
+      "قاعدة علمية"
+    ],
+    "assemblyVisibleDefault": 0,
+    "assemblyVisibleFilling": 0,
+    "freeNavigation": {
+      "activeStep": "filling",
+      "currentPhase": "filling",
+      "completed": 0
+    },
+    "xssProbe": {
+      "flag": 1,
+      "nodeCount": 1,
+      "pageErrors": []
+    },
+    "invalidSpec": {
+      "stored": {
+        "shape": "round",
+        "d1": -5,
+        "d2": 30,
+        "layers": 8,
+        "doughThicknessMm": -2,
+        "fillingThicknessMm": -3,
+        "includeOuterCoat": true,
+        "topCoatThicknessMm": 2,
+        "sideCoatThicknessMm": 2,
+        "wastePct": 120,
+        "scaleMode": "volume",
+        "ballWeight": 140,
+        "targetFlourWeight": 500
+      },
+      "batch": {
+        "area": 19.63,
+        "totalRaw": 0,
+        "doughVolume": -31.42
+      },
+      "filling": {
+        "volume": 3.93,
+        "prepared": 6.6
+      }
+    },
+    "sweetnessSaveMismatch": {
+      "baseMass": 1330,
+      "runtimeBaseMass": 1305.8574448884879,
+      "preparedMass": 753.3552941236356,
+      "baseItems": [
+        {
+          "ingredientId": "sour-cream",
+          "weight": 800
+        },
+        {
+          "ingredientId": "whipping-cream",
+          "weight": 400
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "weight": 120
+        },
+        {
+          "ingredientId": "vanilla",
+          "weight": 10
+        }
+      ],
+      "adjustedItems": [
+        {
+          "ingredientId": "sour-cream",
+          "weight": 800
+        },
+        {
+          "ingredientId": "whipping-cream",
+          "weight": 400
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "weight": 95.85744488848783
+        },
+        {
+          "ingredientId": "vanilla",
+          "weight": 10
+        }
+      ],
+      "displayItems": [
+        {
+          "ingredientId": "sour-cream",
+          "weight": 461.52375794003603
+        },
+        {
+          "ingredientId": "whipping-cream",
+          "weight": 230.76187897001802
+        },
+        {
+          "ingredientId": "powdered-sugar",
+          "weight": 55.300610239331
+        },
+        {
+          "ingredientId": "vanilla",
+          "weight": 5.76904697425045
+        }
+      ]
+    },
+    "finalErrors": []
+  }
+}

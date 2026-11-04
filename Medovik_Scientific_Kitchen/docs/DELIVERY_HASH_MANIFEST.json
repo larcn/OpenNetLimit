@@ -1,0 +1,18 @@
+{
+  "createdAt": "2026-10-24",
+  "originalZipSha256": "b192f5321bfa418ae46440fe0ebaaefcbb9c3c4d9d1fa3b2b11c84e165211947",
+  "modifiedBuildDir": "worktree/Medovik_v6_Final",
+  "testEvidence": "_audit_logs/gates/",
+  "files": {
+    "index.html": "32414aaf7e85c26e96cbb266878206781e4b974232355b930e4d242b5aa3eda9",
+    "core/product.js": "7aae0f77923e81b96d61333cc845343763962d5bea0f17da86fe0aae3dc92d1c",
+    "core/science-model.js": "ebab452d1cb8b0f19f0d9cc9a70c3235ec0b21755864a3071b65f614d6e5abbd",
+    "core/thickness-consistency.js": "034b4493b061c3e101f27ea170db8f270d1ec83302bed468dddae6ce1f6e65e1",
+    "core/model-evidence.js": "7f8e32392d9186305bb11b63dd247bcf02c290477c6d04250b98c20e38f7ed2a",
+    "app-v6.js": "58f8d1747407ec8e489f72a415c237cebe97d430d4418f8f9ab018b2ca5587b2",
+    "runtime/view-prefs.js": "06a3f7c88a6ef9d4696effccb6f89024777090e4dd33329e80e02e6f323126d7",
+    "data/evidence-register.js": "4e3b68c004ad24bc8f26814437d25e8ed51b78337bc631acb1240d0b6cdac284",
+    "docs/FINAL_GATE_REPORT_AR.md": "663e918e75100f02d8859c0d66ce3ec7ebc19ccd5f679fda1017345d2c406f65",
+    "tests/acceptance-matrix.json": "5b1b913385ffcf0f07b40b6e4d6bae23245552f0e5ee406437ae8aa437a7eb15"
+  }
+}

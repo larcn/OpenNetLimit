@@ -1,0 +1,11 @@
+{
+  "product": "Medovik",
+  "release": "6.0.0",
+  "releaseName": "Scientific Engineering Workflow",
+  "releaseDate": "2026-08-04",
+  "sessionSchema": 6,
+  "recipeLabSchema": 2,
+  "doughRecipes": 9,
+  "fillings": 9,
+  "ingredientRecords": 29
+}

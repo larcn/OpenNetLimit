@@ -1,0 +1,13 @@
+{
+  "name": "Medovik Scientific Kitchen",
+  "uiRelease": "Level2-UX-Redesign-RC1",
+  "date": "2026-10-24",
+  "base": "Medovik_Level2_Resume_RC_2026-10-24",
+  "productionStages": 6,
+  "optionalReferenceSections": 2,
+  "scientificModelChanges": false,
+  "dataSchemaChanges": false,
+  "frameworkChanges": false,
+  "offlineDependenciesAdded": false,
+  "scope": "Isolated copy under _audit only"
+}

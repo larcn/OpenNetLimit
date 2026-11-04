@@ -1,0 +1,88 @@
+{
+  "id": "session_fixture_v5",
+  "createdAt": "2025-06-01T00:00:00.000Z",
+  "productSpec": {
+    "shape": "round",
+    "d1": 20,
+    "d2": 30,
+    "layers": 8,
+    "doughThicknessMm": 2,
+    "fillingThicknessMm": 3,
+    "includeOuterCoat": true,
+    "topCoatThicknessMm": 2,
+    "sideCoatThicknessMm": 2,
+    "wastePct": 10,
+    "scaleMode": "volume",
+    "ballWeight": 140,
+    "targetFlourWeight": 500
+  },
+  "recipeSelection": {
+    "mode": "stored",
+    "selectedRecipeId": "ayaHabib",
+    "customKind": "dough",
+    "customDraftId": null
+  },
+  "doughSystem": {
+    "recipeId": "ayaHabib"
+  },
+  "fillingPlan": {
+    "scope": "single-filling-v5",
+    "mode": "reference",
+    "entries": [
+      {
+        "fillingId": "classic_sourcream_frosting",
+        "gaps": "all",
+        "sweetnessAdjustmentPct": 0
+      }
+    ],
+    "customDraft": "",
+    "customRecipeId": null
+  },
+  "sweetnessPlan": {
+    "adjustmentPct": 0,
+    "target": "filling"
+  },
+  "formulaState": {
+    "dough": {
+      "seed": null,
+      "live": null,
+      "version": 0,
+      "sourceSeed": null,
+      "mutations": [],
+      "lastPolicyPass": null,
+      "lastMutationAt": null
+    },
+    "filling": {
+      "seed": null,
+      "live": null,
+      "version": 0,
+      "sourceSeed": null,
+      "mutations": [],
+      "lastPolicyPass": null,
+      "lastMutationAt": null
+    }
+  },
+  "execution": {
+    "currentPhase": "setup",
+    "currentProtocolStepId": null,
+    "completedPhases": [],
+    "completedStepIds": [],
+    "stepData": {},
+    "phaseNotes": {},
+    "observations": [],
+    "deviations": [],
+    "bakeLoop": {
+      "bakedLayers": 0,
+      "averageMinutes": ""
+    },
+    "notes": ""
+  },
+  "ui": {
+    "activeStep": "setup",
+    "lastVisitedStep": "setup",
+    "scienceTopicId": "science:dough-base-heat",
+    "troubleshootingTopicId": "trouble:dough-base-overheat"
+  },
+  "compiledRunbook": null,
+  "review": null
+}

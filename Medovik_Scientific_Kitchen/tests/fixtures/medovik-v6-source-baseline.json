@@ -1,0 +1,44 @@
+{
+  "sourceHashes": {
+    "data/recipes.js": "7a3d53f3cfcd4fc042a5aad9fa1c3bb48b733664b36fc4af8fdbb79d968bcf43",
+    "data/master-fillings-data.js": "9fcc9f49a1ed28f142057fea8db828997f57a8d832ec1f6ad92c630b453c50a5",
+    "data/science-content.js": "b6898e8b2787f51070acd1b31e48e5a837a753d2ebb88f713e02acbca5ff1a87",
+    "data/protocol-authority.js": "6a3acf95fade6605abdbf013d728ee97e4973c8d5965874ecdee4d0c755076a3"
+  },
+  "doughIds": [
+    "ahmedShouqi",
+    "ahmedYounis",
+    "ayaHabib",
+    "davidCooking",
+    "dinaFamily",
+    "hebaAbuElKhair",
+    "smittenKitchen",
+    "tetyanaClassic",
+    "tetyanaSpartak"
+  ],
+  "fillingIds": [
+    "ayahabib",
+    "classic_dulce_sourcream",
+    "classic_sourcream_frosting",
+    "hiba",
+    "shouqi_1",
+    "shouqi_2",
+    "shouqi_3",
+    "younis_cream1",
+    "younis_cream2"
+  ],
+  "scienceIds": [
+    "assembly-rest",
+    "baking-sheet-layers",
+    "baking-thin-layers",
+    "dough-honey-base",
+    "dough-matrix-formation",
+    "dough-profile-family",
+    "dough-soda-reaction",
+    "dulce-folding",
+    "egg-tempering",
+    "filling-rule-context",
+    "filling-whipped-dairy",
+    "sourcream-mixing"
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "scope": "Official-feature comparison, no direct competitor session",
+  "rows": [
+    {
+      "product": "Paprika Recipe Manager 3",
+      "scenarioId": "select",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.paprikaapp.com/help/android",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Browsing and categories in published user guide"
+    },
+    {
+      "product": "Paprika Recipe Manager 3",
+      "scenarioId": "rescale",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.paprikaapp.com/help/android",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Scale ingredients tool documented"
+    },
+    {
+      "product": "Paprika Recipe Manager 3",
+      "scenarioId": "instructions",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.paprikaapp.com/help/android",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Interactive recipes, highlight directions"
+    },
+    {
+      "product": "Paprika Recipe Manager 3",
+      "scenarioId": "next-previous",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.paprikaapp.com/help/android",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts.",
+        "Feature or navigation route not verified."
+      ],
+      "status": "NOT_VERIFIED",
+      "documentedBehavior": "Exact previous/next physical controls untested"
+    },
+    {
+      "product": "Paprika Recipe Manager 3",
+      "scenarioId": "save",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.paprikaapp.com/help/android",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Save or import recipe documented"
+    },
+    {
+      "product": "Paprika Recipe Manager 3",
+      "scenarioId": "revisit",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.paprikaapp.com/help/android",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Saved recipes available offline"
+    },
+    {
+      "product": "SideChef",
+      "scenarioId": "select",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.sidechef.com/faq/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Filter recipes by preferences and ingredients"
+    },
+    {
+      "product": "SideChef",
+      "scenarioId": "rescale",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.sidechef.com/faq/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts.",
+        "Feature or navigation route not verified."
+      ],
+      "status": "NOT_VERIFIED",
+      "documentedBehavior": "No verified global ingredient scaling flow for selected version"
+    },
+    {
+      "product": "SideChef",
+      "scenarioId": "instructions",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.sidechef.com/faq/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Guided recipe with photo, video and voice guidance"
+    },
+    {
+      "product": "SideChef",
+      "scenarioId": "next-previous",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.sidechef.com/faq/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts.",
+        "Feature or navigation route not verified."
+      ],
+      "status": "NOT_VERIFIED",
+      "documentedBehavior": "Direction-button behavior not directly checked"
+    },
+    {
+      "product": "SideChef",
+      "scenarioId": "save",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.sidechef.com/faq/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Saved recipe creation described in official FAQ"
+    },
+    {
+      "product": "SideChef",
+      "scenarioId": "revisit",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://www.sidechef.com/faq/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Saved recipes section in official FAQ"
+    },
+    {
+      "product": "Samsung Food",
+      "scenarioId": "select",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://samsungfood.com/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Collect and discover recipes"
+    },
+    {
+      "product": "Samsung Food",
+      "scenarioId": "rescale",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://samsungfood.com/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts.",
+        "Feature or navigation route not verified."
+      ],
+      "status": "NOT_VERIFIED",
+      "documentedBehavior": "Ingredient rescaling route not verified in official material reviewed"
+    },
+    {
+      "product": "Samsung Food",
+      "scenarioId": "instructions",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://samsungfood.com/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts.",
+        "Feature or navigation route not verified."
+      ],
+      "status": "NOT_VERIFIED",
+      "documentedBehavior": "Exact hands-on cooking mode screen not tested"
+    },
+    {
+      "product": "Samsung Food",
+      "scenarioId": "next-previous",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://samsungfood.com/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts.",
+        "Feature or navigation route not verified."
+      ],
+      "status": "NOT_VERIFIED",
+      "documentedBehavior": "Navigation controls not observed"
+    },
+    {
+      "product": "Samsung Food",
+      "scenarioId": "save",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://samsungfood.com/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Website recipe saving feature"
+    },
+    {
+      "product": "Samsung Food",
+      "scenarioId": "revisit",
+      "evidenceType": "OFFICIAL_DOCUMENTATION",
+      "url": "https://samsungfood.com/",
+      "capturedAt": "2026-10-24",
+      "accessible": true,
+      "stepsObserved": [],
+      "unknowns": [
+        "Direct interaction untested; no comparable click counts."
+      ],
+      "status": "DOCUMENTED",
+      "documentedBehavior": "Digital recipe box maintained in app"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "sample_1": {
+    "allSafe": null,
+    "batchSize": 100,
+    "batches": 4,
+    "direction": "HOT_BASE_INTO_EGG",
+    "directionLabel": "إضافة القاعدة الساخنة إلى البيض",
+    "eggMass": 150,
+    "eggTemp": 20,
+    "eggs": 3,
+    "finalRiskLabel": "أقل حرارياً في المتوسط الحجمي",
+    "finalRiskLevel": "lower",
+    "finalTemp": 57.2,
+    "hotMass": 400,
+    "hotTemp": 80,
+    "notes": [
+      "هذا تقدير لاتزان الحرارة في كامل الكتلة، لا قياس لحرارة التلامس اللحظية حول خيط البيض أو الخليط الساخن.",
+      "اتجاه الدمج يغيّر حرارة المراحل الأولى بوضوح، حتى لو بقي متوسط الحرارة النهائي متقارباً.",
+      "اتبع ترتيب الوصفة الأصلية؛ لا تغيّر كمية البيض بغرض تبريد الخليط."
+    ],
+    "practicalSolutions": {
+      "coolHotBase": true,
+      "useSmallerBatches": true,
+      "whiskContinuously": true
+    },
+    "recommendedSafe": null,
+    "recommendedSafeBatches": null,
+    "results": [
+      {
+        "addedMass": 100,
+        "batch": 1,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 37.4
+      },
+      {
+        "addedMass": 100,
+        "batch": 2,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 46.9
+      },
+      {
+        "addedMass": 100,
+        "batch": 3,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 53
+      },
+      {
+        "addedMass": 100,
+        "batch": 4,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 57.2
+      }
+    ],
+    "syrupMass": 400,
+    "syrupTemp": 80
+  },
+  "sample_2": {
+    "allSafe": null,
+    "batchSize": 87.5,
+    "batches": 4,
+    "direction": "HOT_BASE_INTO_EGG",
+    "directionLabel": "إضافة القاعدة الساخنة إلى البيض",
+    "eggMass": 150,
+    "eggTemp": 8,
+    "eggs": 3,
+    "finalRiskLabel": "أقل حرارياً في المتوسط الحجمي",
+    "finalRiskLevel": "lower",
+    "finalTemp": 53.3,
+    "hotMass": 350,
+    "hotTemp": 85,
+    "notes": [
+      "هذا تقدير لاتزان الحرارة في كامل الكتلة، لا قياس لحرارة التلامس اللحظية حول خيط البيض أو الخليط الساخن.",
+      "اتجاه الدمج يغيّر حرارة المراحل الأولى بوضوح، حتى لو بقي متوسط الحرارة النهائي متقارباً.",
+      "اتبع ترتيب الوصفة الأصلية؛ لا تغيّر كمية البيض بغرض تبريد الخليط."
+    ],
+    "practicalSolutions": {
+      "coolHotBase": true,
+      "useSmallerBatches": true,
+      "whiskContinuously": true
+    },
+    "recommendedSafe": null,
+    "recommendedSafeBatches": null,
+    "results": [
+      {
+        "addedMass": 87.5,
+        "batch": 1,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 28.2
+      },
+      {
+        "addedMass": 87.5,
+        "batch": 2,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 40
+      },
+      {
+        "addedMass": 87.5,
+        "batch": 3,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 47.8
+      },
+      {
+        "addedMass": 87.5,
+        "batch": 4,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 53.3
+      }
+    ],
+    "syrupMass": 350,
+    "syrupTemp": 85
+  },
+  "sample_3": {
+    "allSafe": null,
+    "batchSize": 125,
+    "batches": 4,
+    "direction": "HOT_BASE_INTO_EGG",
+    "directionLabel": "إضافة القاعدة الساخنة إلى البيض",
+    "eggMass": 200,
+    "eggTemp": 22,
+    "eggs": 4,
+    "finalRiskLabel": "أقل حرارياً في المتوسط الحجمي",
+    "finalRiskLevel": "lower",
+    "finalTemp": 52.2,
+    "hotMass": 500,
+    "hotTemp": 72,
+    "notes": [
+      "هذا تقدير لاتزان الحرارة في كامل الكتلة، لا قياس لحرارة التلامس اللحظية حول خيط البيض أو الخليط الساخن.",
+      "اتجاه الدمج يغيّر حرارة المراحل الأولى بوضوح، حتى لو بقي متوسط الحرارة النهائي متقارباً.",
+      "اتبع ترتيب الوصفة الأصلية؛ لا تغيّر كمية البيض بغرض تبريد الخليط."
+    ],
+    "practicalSolutions": {
+      "coolHotBase": true,
+      "useSmallerBatches": true,
+      "whiskContinuously": true
+    },
+    "recommendedSafe": null,
+    "recommendedSafeBatches": null,
+    "results": [
+      {
+        "addedMass": 125,
+        "batch": 1,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 35.8
+      },
+      {
+        "addedMass": 125,
+        "batch": 2,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 43.7
+      },
+      {
+        "addedMass": 125,
+        "batch": 3,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 48.7
+      },
+      {
+        "addedMass": 125,
+        "batch": 4,
+        "riskLabel": "أقل حرارياً في المتوسط الحجمي",
+        "riskLevel": "lower",
+        "temp": 52.2
+      }
+    ],
+    "syrupMass": 500,
+    "syrupTemp": 72
+  }
+}

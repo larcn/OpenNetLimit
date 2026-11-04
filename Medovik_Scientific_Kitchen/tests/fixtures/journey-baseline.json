@@ -1,0 +1,102 @@
+{
+  "measuredAt": "2026-10-24",
+  "scenarios": [
+    {
+      "viewport": 390,
+      "recipe": "ayaHabib",
+      "filling": "reference",
+      "scenario": "normal-recipe",
+      "actionPath": [
+        "open setup",
+        "select recipe",
+        "open dough",
+        "open filling"
+      ],
+      "actionCount": 4,
+      "scrollDistance": 6670,
+      "measuredAs": "available vertical scroll extent, NOT finger-scrolling trace",
+      "errors": [],
+      "success": true,
+      "pageMetrics": {
+        "scrollHeight": 7514,
+        "viewport": 844,
+        "documentWidth": 390,
+        "clientWidth": 390
+      },
+      "screenshot": "_audit_logs/journey-390-normal-recipe.png"
+    },
+    {
+      "viewport": 1366,
+      "recipe": null,
+      "filling": "custom-then-reference",
+      "scenario": "custom-filling",
+      "actionPath": [
+        "open filling",
+        "choose custom filling",
+        "restore reference filling"
+      ],
+      "actionCount": 3,
+      "scrollDistance": 3765,
+      "measuredAs": "available vertical scroll extent, NOT finger-scrolling trace",
+      "errors": [],
+      "success": true,
+      "pageMetrics": {
+        "scrollHeight": 4609,
+        "viewport": 844,
+        "documentWidth": 1366,
+        "clientWidth": 1366
+      },
+      "screenshot": "_audit_logs/journey-1366-custom-filling.png"
+    },
+    {
+      "viewport": 390,
+      "recipe": "ayaHabib",
+      "filling": "reference",
+      "scenario": "save-reload",
+      "actionPath": [
+        "open setup",
+        "select recipe",
+        "open dough",
+        "open filling",
+        "enter saved title",
+        "save filling",
+        "restart with restored storage snapshot"
+      ],
+      "actionCount": 7,
+      "scrollDistance": 6243,
+      "measuredAs": "available vertical scroll extent, NOT finger-scrolling trace",
+      "errors": [],
+      "success": true,
+      "pageMetrics": {
+        "scrollHeight": 7087,
+        "viewport": 844,
+        "documentWidth": 390,
+        "clientWidth": 390
+      },
+      "screenshot": "_audit_logs/journey-390-save-reload.png"
+    },
+    {
+      "viewport": 768,
+      "recipe": null,
+      "filling": "reference",
+      "scenario": "tablet-protocol",
+      "actionPath": [
+        "open baking",
+        "advanced mode",
+        "cooking mode"
+      ],
+      "actionCount": 3,
+      "scrollDistance": 1868,
+      "measuredAs": "available vertical scroll extent, NOT finger-scrolling trace",
+      "errors": [],
+      "success": true,
+      "pageMetrics": {
+        "scrollHeight": 2712,
+        "viewport": 844,
+        "documentWidth": 768,
+        "clientWidth": 768
+      },
+      "screenshot": "_audit_logs/journey-768-tablet-protocol.png"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "session_fixture_v4",
+  "createdAt": "2025-01-01T00:00:00.000Z",
+  "status": "plan",
+  "productSpec": {
+    "shape": "round",
+    "d1": 20,
+    "d2": 30,
+    "layers": 8,
+    "doughThicknessMm": 2,
+    "fillingThicknessMm": 3,
+    "includeOuterCoat": true,
+    "topCoatThicknessMm": 2,
+    "sideCoatThicknessMm": 2,
+    "wastePct": 10,
+    "scaleMode": "volume",
+    "ballWeight": 140,
+    "targetFlourWeight": 500
+  },
+  "doughSystem": {
+    "recipeId": "ayaHabib"
+  },
+  "fillingPlan": {
+    "scope": "single-filling-v4",
+    "mode": "reference",
+    "entries": [
+      {
+        "fillingId": "classic_sourcream_frosting",
+        "gaps": "all",
+        "sweetnessAdjustmentPct": 0
+      }
+    ],
+    "customDraft": ""
+  },
+  "sweetnessPlan": {
+    "adjustmentPct": 0,
+    "target": "filling"
+  },
+  "formulaState": {
+    "dough": {
+      "seed": null,
+      "live": null,
+      "version": 0,
+      "sourceSeed": null,
+      "mutations": [],
+      "lastPolicyPass": null,
+      "lastMutationAt": null
+    },
+    "filling": {
+      "seed": null,
+      "live": null,
+      "version": 0,
+      "sourceSeed": null,
+      "mutations": [],
+      "lastPolicyPass": null,
+      "lastMutationAt": null
+    }
+  },
+  "executionState": {
+    "currentPhase": "plan",
+    "currentProtocolStepId": null,
+    "completedPhases": [],
+    "stepData": {},
+    "completedStepIds": [],
+    "notes": "",
+    "phaseNotes": {},
+    "observations": [],
+    "deviations": [],
+    "bakeLoop": {
+      "bakedLayers": 0,
+      "averageMinutes": ""
+    }
+  },
+  "compiledRunbook": null,
+  "review": null
+}

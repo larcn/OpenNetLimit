@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-11-04T21:57:42.022482+00:00",
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "results": [
+    {
+      "name": "All index assets exist",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "No duplicate static HTML ids",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "All JavaScript files pass node --check",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "No legacy app-v5 or v5-styles references in production",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No TODO or FIXME markers in production code",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No executable javascript: URL appears in index.html",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Main workflow contains assembly and review",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Normal UI omits audit confidence phrases",
+      "ok": true,
+      "detail": null
+    }
+  ]
+}

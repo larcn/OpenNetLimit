@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-11-04T21:57:37.861Z",
+  "total": 39,
+  "passed": 39,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Design filling density is not misrepresented as measured",
+      "ok": true
+    },
+    {
+      "name": "Filling volume scaling refuses unknown density but mass input remains usable",
+      "ok": true
+    },
+    {
+      "name": "All expected recipes and fillings are present",
+      "ok": true
+    },
+    {
+      "name": "Every ingredient record passes centralized validation",
+      "ok": true
+    },
+    {
+      "name": "Formula rejects negative/zero weights and aggregates duplicates",
+      "ok": true
+    },
+    {
+      "name": "Formula snapshot preserves lineage and mass basis",
+      "ok": true
+    },
+    {
+      "name": "Honey total sugar is not lost when profile is incomplete",
+      "ok": true
+    },
+    {
+      "name": "Commercial chocolate contributes sugar and sweetness",
+      "ok": true
+    },
+    {
+      "name": "Unknown ingredient remains visible in composition coverage",
+      "ok": true
+    },
+    {
+      "name": "Aqueous sugar metric is not identified as true Brix",
+      "ok": true
+    },
+    {
+      "name": "Invalid product spec is normalized into operational limits",
+      "ok": true
+    },
+    {
+      "name": "Legacy single thickness migrates to raw and baked thickness fields",
+      "ok": true
+    },
+    {
+      "name": "Geometry separates raw sheet volume from baked layer volume and stack height",
+      "ok": true
+    },
+    {
+      "name": "Tempering calculation distinguishes mixing direction",
+      "ok": true
+    },
+    {
+      "name": "Recipes have explicit process, shaping and flour policies",
+      "ok": true
+    },
+    {
+      "name": "Spartak uses spread-batter path and disables ball-weight mode",
+      "ok": true
+    },
+    {
+      "name": "All dough scaling modes preserve source lineage",
+      "ok": true
+    },
+    {
+      "name": "Sweetness adjustment preserves dough source identity",
+      "ok": true
+    },
+    {
+      "name": "Sour-cream straining removes mass through a process-state ingredient",
+      "ok": true
+    },
+    {
+      "name": "Every filling declares application suitability",
+      "ok": true
+    },
+    {
+      "name": "Source-specific filling protocols are not overwritten by generic ingredient rules",
+      "ok": true
+    },
+    {
+      "name": "Ahmed Shouqi protocol keeps eggs and soda in the heated system and lifts at 70C",
+      "ok": true
+    },
+    {
+      "name": "Ahmed Younis protocol does not invent soda in hot base and preserves 1 hour chill + 0.5mm roll",
+      "ok": true
+    },
+    {
+      "name": "Spartak protocol preserves spreadable batter instruction",
+      "ok": true
+    },
+    {
+      "name": "Protocol coverage dynamically includes all recipes and fillings",
+      "ok": true
+    },
+    {
+      "name": "Runbook contains setup, dough, baking, filling, assembly and review phases",
+      "ok": true
+    },
+    {
+      "name": "Session migration separates legacy thickness and sanitizes free text",
+      "ok": true
+    },
+    {
+      "name": "Recipe Lab sanitizes stored user text",
+      "ok": true
+    },
+    {
+      "name": "Storage failures are surfaced through persist status",
+      "ok": true
+    },
+    {
+      "name": "All 1,620 recipe/filling/config analyses complete with finite numeric outputs",
+      "ok": true
+    },
+    {
+      "name": "Custom filling guidance is practical and does not override source protocols",
+      "ok": true
+    },
+    {
+      "name": "Generic filling rules avoid pseudo-precise viscosity and yield claims",
+      "ok": true
+    },
+    {
+      "name": "Static user-facing files do not label filling metric as Brix or expose scientific-confidence panel",
+      "ok": true
+    },
+    {
+      "name": "Dry formula mass balance has no phantom clamp loss",
+      "ok": true
+    },
+    {
+      "name": "Half-unknown composition cannot drive density but manual scaling remains available",
+      "ok": true
+    },
+    {
+      "name": "Thickness audit enforces measured geometry without inferring raw density",
+      "ok": true
+    },
+    {
+      "name": "Evidence status distinguishes geometric law, model and missing composition",
+      "ok": true
+    },
+    {
+      "name": "Every built-in recipe and science note has honest provenance status",
+      "ok": true
+    },
+    {
+      "name": "Saved variant and derived runbook instructions disclose provenance",
+      "ok": true
+    }
+  ]
+}

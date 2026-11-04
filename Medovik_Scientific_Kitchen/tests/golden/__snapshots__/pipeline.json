@@ -1,0 +1,1622 @@
+{
+  "ahmedShouqi__ayahabib": {
+    "dough": {
+      "bakedMass": 564.628860203,
+      "ballWeight": 82.132072368,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 657.056578946,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 19.084127078
+    }
+  },
+  "ahmedShouqi__classic_dulce_sourcream": {
+    "dough": {
+      "bakedMass": 564.628860203,
+      "ballWeight": 82.132072368,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 657.056578946,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 626.747734391,
+      "onCakeRequiredMass": 730.608787519,
+      "sideRequiredMass": 44.170792709,
+      "topRequiredMass": 59.690260418
+    },
+    "sweetness": {
+      "equivPer100": 20.691623979
+    }
+  },
+  "ahmedShouqi__classic_sourcream_frosting": {
+    "dough": {
+      "bakedMass": 564.628860203,
+      "ballWeight": 82.132072368,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 657.056578946,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 17.973720766
+    }
+  },
+  "ahmedShouqi__hiba": {
+    "dough": {
+      "bakedMass": 564.628860203,
+      "ballWeight": 82.132072368,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 657.056578946,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 475.008809223,
+      "onCakeRequiredMass": 553.724554751,
+      "sideRequiredMass": 33.476811317,
+      "topRequiredMass": 45.238934212
+    },
+    "sweetness": {
+      "equivPer100": 15.234668552
+    }
+  },
+  "ahmedShouqi__shouqi_1": {
+    "dough": {
+      "bakedMass": 564.628860203,
+      "ballWeight": 82.132072368,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 657.056578946,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 21.826278832
+    }
+  },
+  "ahmedShouqi__shouqi_2": {
+    "dough": {
+      "bakedMass": 564.628860203,
+      "ballWeight": 82.132072368,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 657.056578946,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 514.592876658,
+      "onCakeRequiredMass": 599.868267647,
+      "sideRequiredMass": 36.266545593,
+      "topRequiredMass": 49.008845396
+    },
+    "sweetness": {
+      "equivPer100": 21.337417469
+    }
+  },
+  "ahmedShouqi__shouqi_3": {
+    "dough": {
+      "bakedMass": 564.628860203,
+      "ballWeight": 82.132072368,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 657.056578946,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 27.504340391
+    }
+  },
+  "ahmedShouqi__younis_cream1": {
+    "dough": {
+      "bakedMass": 564.628860203,
+      "ballWeight": 82.132072368,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 657.056578946,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 22.137913061
+    }
+  },
+  "ahmedShouqi__younis_cream2": {
+    "dough": {
+      "bakedMass": 564.628860203,
+      "ballWeight": 82.132072368,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 657.056578946,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 19.021263921
+    }
+  },
+  "ahmedYounis__ayahabib": {
+    "dough": {
+      "bakedMass": 560.687002633,
+      "ballWeight": 79.67861437,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 637.428914963,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 20.076820556
+    }
+  },
+  "ahmedYounis__classic_dulce_sourcream": {
+    "dough": {
+      "bakedMass": 560.687002633,
+      "ballWeight": 79.67861437,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 637.428914963,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 626.747734391,
+      "onCakeRequiredMass": 730.608787519,
+      "sideRequiredMass": 44.170792709,
+      "topRequiredMass": 59.690260418
+    },
+    "sweetness": {
+      "equivPer100": 21.595769361
+    }
+  },
+  "ahmedYounis__classic_sourcream_frosting": {
+    "dough": {
+      "bakedMass": 560.687002633,
+      "ballWeight": 79.67861437,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 637.428914963,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 18.94846479
+    }
+  },
+  "ahmedYounis__hiba": {
+    "dough": {
+      "bakedMass": 560.687002633,
+      "ballWeight": 79.67861437,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 637.428914963,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 475.008809223,
+      "onCakeRequiredMass": 553.724554751,
+      "sideRequiredMass": 33.476811317,
+      "topRequiredMass": 45.238934212
+    },
+    "sweetness": {
+      "equivPer100": 16.183158997
+    }
+  },
+  "ahmedYounis__shouqi_1": {
+    "dough": {
+      "bakedMass": 560.687002633,
+      "ballWeight": 79.67861437,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 637.428914963,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 22.831465459
+    }
+  },
+  "ahmedYounis__shouqi_2": {
+    "dough": {
+      "bakedMass": 560.687002633,
+      "ballWeight": 79.67861437,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 637.428914963,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 514.592876658,
+      "onCakeRequiredMass": 599.868267647,
+      "sideRequiredMass": 36.266545593,
+      "topRequiredMass": 49.008845396
+    },
+    "sweetness": {
+      "equivPer100": 22.347344919
+    }
+  },
+  "ahmedYounis__shouqi_3": {
+    "dough": {
+      "bakedMass": 560.687002633,
+      "ballWeight": 79.67861437,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 637.428914963,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 28.565907447
+    }
+  },
+  "ahmedYounis__younis_cream1": {
+    "dough": {
+      "bakedMass": 560.687002633,
+      "ballWeight": 79.67861437,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 637.428914963,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 23.147982547
+    }
+  },
+  "ahmedYounis__younis_cream2": {
+    "dough": {
+      "bakedMass": 560.687002633,
+      "ballWeight": 79.67861437,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 637.428914963,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 19.953872019
+    }
+  },
+  "ayaHabib__ayahabib": {
+    "dough": {
+      "bakedMass": 554.284776721,
+      "ballWeight": 78.665848695,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 629.326789563,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 20.167165691
+    }
+  },
+  "ayaHabib__classic_dulce_sourcream": {
+    "dough": {
+      "bakedMass": 554.284776721,
+      "ballWeight": 78.665848695,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 629.326789563,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 626.747734391,
+      "onCakeRequiredMass": 730.608787519,
+      "sideRequiredMass": 44.170792709,
+      "topRequiredMass": 59.690260418
+    },
+    "sweetness": {
+      "equivPer100": 21.6849457
+    }
+  },
+  "ayaHabib__classic_sourcream_frosting": {
+    "dough": {
+      "bakedMass": 554.284776721,
+      "ballWeight": 78.665848695,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 629.326789563,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 19.031230202
+    }
+  },
+  "ayaHabib__hiba": {
+    "dough": {
+      "bakedMass": 554.284776721,
+      "ballWeight": 78.665848695,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 629.326789563,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 475.008809223,
+      "onCakeRequiredMass": 553.724554751,
+      "sideRequiredMass": 33.476811317,
+      "topRequiredMass": 45.238934212
+    },
+    "sweetness": {
+      "equivPer100": 16.248600306
+    }
+  },
+  "ayaHabib__shouqi_1": {
+    "dough": {
+      "bakedMass": 554.284776721,
+      "ballWeight": 78.665848695,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 629.326789563,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 22.936951833
+    }
+  },
+  "ayaHabib__shouqi_2": {
+    "dough": {
+      "bakedMass": 554.284776721,
+      "ballWeight": 78.665848695,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 629.326789563,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 514.592876658,
+      "onCakeRequiredMass": 599.868267647,
+      "sideRequiredMass": 36.266545593,
+      "topRequiredMass": 49.008845396
+    },
+    "sweetness": {
+      "equivPer100": 22.450960236
+    }
+  },
+  "ayaHabib__shouqi_3": {
+    "dough": {
+      "bakedMass": 554.284776721,
+      "ballWeight": 78.665848695,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 629.326789563,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 28.704444421
+    }
+  },
+  "ayaHabib__younis_cream1": {
+    "dough": {
+      "bakedMass": 554.284776721,
+      "ballWeight": 78.665848695,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 629.326789563,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 23.255529431
+    }
+  },
+  "ayaHabib__younis_cream2": {
+    "dough": {
+      "bakedMass": 554.284776721,
+      "ballWeight": 78.665848695,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 629.326789563,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 20.038025367
+    }
+  },
+  "davidCooking__ayahabib": {
+    "dough": {
+      "bakedMass": 569.2326189,
+      "ballWeight": 83.085912987,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 664.687303895,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 18.727601492
+    }
+  },
+  "davidCooking__classic_dulce_sourcream": {
+    "dough": {
+      "bakedMass": 569.2326189,
+      "ballWeight": 83.085912987,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 664.687303895,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 626.747734391,
+      "onCakeRequiredMass": 730.608787519,
+      "sideRequiredMass": 44.170792709,
+      "topRequiredMass": 59.690260418
+    },
+    "sweetness": {
+      "equivPer100": 20.36560925
+    }
+  },
+  "davidCooking__classic_sourcream_frosting": {
+    "dough": {
+      "bakedMass": 569.2326189,
+      "ballWeight": 83.085912987,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 664.687303895,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 17.624020243
+    }
+  },
+  "davidCooking__hiba": {
+    "dough": {
+      "bakedMass": 569.2326189,
+      "ballWeight": 83.085912987,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 664.687303895,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 475.008809223,
+      "onCakeRequiredMass": 553.724554751,
+      "sideRequiredMass": 33.476811317,
+      "topRequiredMass": 45.238934212
+    },
+    "sweetness": {
+      "equivPer100": 14.895500358
+    }
+  },
+  "davidCooking__shouqi_1": {
+    "dough": {
+      "bakedMass": 569.2326189,
+      "ballWeight": 83.085912987,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 664.687303895,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 21.464116175
+    }
+  },
+  "davidCooking__shouqi_2": {
+    "dough": {
+      "bakedMass": 569.2326189,
+      "ballWeight": 83.085912987,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 664.687303895,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 514.592876658,
+      "onCakeRequiredMass": 599.868267647,
+      "sideRequiredMass": 36.266545593,
+      "topRequiredMass": 49.008845396
+    },
+    "sweetness": {
+      "equivPer100": 20.973799642
+    }
+  },
+  "davidCooking__shouqi_3": {
+    "dough": {
+      "bakedMass": 569.2326189,
+      "ballWeight": 83.085912987,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 664.687303895,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 27.119876705
+    }
+  },
+  "davidCooking__younis_cream1": {
+    "dough": {
+      "bakedMass": 569.2326189,
+      "ballWeight": 83.085912987,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 664.687303895,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 21.773892504
+    }
+  },
+  "davidCooking__younis_cream2": {
+    "dough": {
+      "bakedMass": 569.2326189,
+      "ballWeight": 83.085912987,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 664.687303895,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 18.685899537
+    }
+  },
+  "dinaFamily__ayahabib": {
+    "dough": {
+      "bakedMass": 575.641235358,
+      "ballWeight": 81.799277348,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 654.394218782,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 18.221065968
+    }
+  },
+  "dinaFamily__classic_dulce_sourcream": {
+    "dough": {
+      "bakedMass": 575.641235358,
+      "ballWeight": 81.799277348,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 654.394218782,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 626.747734391,
+      "onCakeRequiredMass": 730.608787519,
+      "sideRequiredMass": 44.170792709,
+      "topRequiredMass": 59.690260418
+    },
+    "sweetness": {
+      "equivPer100": 19.927500716
+    }
+  },
+  "dinaFamily__classic_sourcream_frosting": {
+    "dough": {
+      "bakedMass": 575.641235358,
+      "ballWeight": 81.799277348,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 654.394218782,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 17.108258484
+    }
+  },
+  "dinaFamily__hiba": {
+    "dough": {
+      "bakedMass": 575.641235358,
+      "ballWeight": 81.799277348,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 654.394218782,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 475.008809223,
+      "onCakeRequiredMass": 553.724554751,
+      "sideRequiredMass": 33.476811317,
+      "topRequiredMass": 45.238934212
+    },
+    "sweetness": {
+      "equivPer100": 14.346642126
+    }
+  },
+  "dinaFamily__shouqi_1": {
+    "dough": {
+      "bakedMass": 575.641235358,
+      "ballWeight": 81.799277348,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 654.394218782,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 20.995106956
+    }
+  },
+  "dinaFamily__shouqi_2": {
+    "dough": {
+      "bakedMass": 575.641235358,
+      "ballWeight": 81.799277348,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 654.394218782,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 514.592876658,
+      "onCakeRequiredMass": 599.868267647,
+      "sideRequiredMass": 36.266545593,
+      "topRequiredMass": 49.008845396
+    },
+    "sweetness": {
+      "equivPer100": 20.495015107
+    }
+  },
+  "dinaFamily__shouqi_3": {
+    "dough": {
+      "bakedMass": 575.641235358,
+      "ballWeight": 81.799277348,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 654.394218782,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 26.70915834
+    }
+  },
+  "dinaFamily__younis_cream1": {
+    "dough": {
+      "bakedMass": 575.641235358,
+      "ballWeight": 81.799277348,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 654.394218782,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 21.307394662
+    }
+  },
+  "dinaFamily__younis_cream2": {
+    "dough": {
+      "bakedMass": 575.641235358,
+      "ballWeight": 81.799277348,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 654.394218782,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 18.208816324
+    }
+  },
+  "hebaAbuElKhair__ayahabib": {
+    "dough": {
+      "bakedMass": 574.410314179,
+      "ballWeight": 82.322885872,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 658.583086974,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 19.873116342
+    }
+  },
+  "hebaAbuElKhair__classic_dulce_sourcream": {
+    "dough": {
+      "bakedMass": 574.410314179,
+      "ballWeight": 82.322885872,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 658.583086974,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 626.747734391,
+      "onCakeRequiredMass": 730.608787519,
+      "sideRequiredMass": 44.170792709,
+      "topRequiredMass": 59.690260418
+    },
+    "sweetness": {
+      "equivPer100": 21.391489362
+    }
+  },
+  "hebaAbuElKhair__classic_sourcream_frosting": {
+    "dough": {
+      "bakedMass": 574.410314179,
+      "ballWeight": 82.322885872,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 658.583086974,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 18.764082114
+    }
+  },
+  "hebaAbuElKhair__hiba": {
+    "dough": {
+      "bakedMass": 574.410314179,
+      "ballWeight": 82.322885872,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 658.583086974,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 475.008809223,
+      "onCakeRequiredMass": 553.724554751,
+      "sideRequiredMass": 33.476811317,
+      "topRequiredMass": 45.238934212
+    },
+    "sweetness": {
+      "equivPer100": 16.043520494
+    }
+  },
+  "hebaAbuElKhair__shouqi_1": {
+    "dough": {
+      "bakedMass": 574.410314179,
+      "ballWeight": 82.322885872,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 658.583086974,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 22.588164852
+    }
+  },
+  "hebaAbuElKhair__shouqi_2": {
+    "dough": {
+      "bakedMass": 574.410314179,
+      "ballWeight": 82.322885872,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 658.583086974,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 514.592876658,
+      "onCakeRequiredMass": 599.868267647,
+      "sideRequiredMass": 36.266545593,
+      "topRequiredMass": 49.008845396
+    },
+    "sweetness": {
+      "equivPer100": 22.109208521
+    }
+  },
+  "hebaAbuElKhair__shouqi_3": {
+    "dough": {
+      "bakedMass": 574.410314179,
+      "ballWeight": 82.322885872,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 658.583086974,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 28.237296368
+    }
+  },
+  "hebaAbuElKhair__younis_cream1": {
+    "dough": {
+      "bakedMass": 574.410314179,
+      "ballWeight": 82.322885872,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 658.583086974,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 22.899425632
+    }
+  },
+  "hebaAbuElKhair__younis_cream2": {
+    "dough": {
+      "bakedMass": 574.410314179,
+      "ballWeight": 82.322885872,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 658.583086974,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 19.764087783
+    }
+  },
+  "smittenKitchen__ayahabib": {
+    "dough": {
+      "bakedMass": 569.809574727,
+      "ballWeight": 83.526496694,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 668.21197355,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 19.262005597
+    }
+  },
+  "smittenKitchen__classic_dulce_sourcream": {
+    "dough": {
+      "bakedMass": 569.809574727,
+      "ballWeight": 83.526496694,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 668.21197355,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 626.747734391,
+      "onCakeRequiredMass": 730.608787519,
+      "sideRequiredMass": 44.170792709,
+      "topRequiredMass": 59.690260418
+    },
+    "sweetness": {
+      "equivPer100": 20.837123667
+    }
+  },
+  "smittenKitchen__classic_sourcream_frosting": {
+    "dough": {
+      "bakedMass": 569.809574727,
+      "ballWeight": 83.526496694,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 668.21197355,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 18.161548632
+    }
+  },
+  "smittenKitchen__hiba": {
+    "dough": {
+      "bakedMass": 569.809574727,
+      "ballWeight": 83.526496694,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 668.21197355,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 475.008809223,
+      "onCakeRequiredMass": 553.724554751,
+      "sideRequiredMass": 33.476811317,
+      "topRequiredMass": 45.238934212
+    },
+    "sweetness": {
+      "equivPer100": 15.45104843
+    }
+  },
+  "smittenKitchen__shouqi_1": {
+    "dough": {
+      "bakedMass": 569.809574727,
+      "ballWeight": 83.526496694,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 668.21197355,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 21.974994213
+    }
+  },
+  "smittenKitchen__shouqi_2": {
+    "dough": {
+      "bakedMass": 569.809574727,
+      "ballWeight": 83.526496694,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 668.21197355,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 514.592876658,
+      "onCakeRequiredMass": 599.868267647,
+      "sideRequiredMass": 36.266545593,
+      "topRequiredMass": 49.008845396
+    },
+    "sweetness": {
+      "equivPer100": 21.492237249
+    }
+  },
+  "smittenKitchen__shouqi_3": {
+    "dough": {
+      "bakedMass": 569.809574727,
+      "ballWeight": 83.526496694,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 668.21197355,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 27.600813679
+    }
+  },
+  "smittenKitchen__younis_cream1": {
+    "dough": {
+      "bakedMass": 569.809574727,
+      "ballWeight": 83.526496694,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 668.21197355,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 22.283919827
+    }
+  },
+  "smittenKitchen__younis_cream2": {
+    "dough": {
+      "bakedMass": 569.809574727,
+      "ballWeight": 83.526496694,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 668.21197355,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 19.189324335
+    }
+  },
+  "tetyanaClassic__ayahabib": {
+    "dough": {
+      "bakedMass": 567.055423608,
+      "ballWeight": 81.942029352,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 655.536234814,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 20.648851358
+    }
+  },
+  "tetyanaClassic__classic_dulce_sourcream": {
+    "dough": {
+      "bakedMass": 567.055423608,
+      "ballWeight": 81.942029352,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 655.536234814,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 626.747734391,
+      "onCakeRequiredMass": 730.608787519,
+      "sideRequiredMass": 44.170792709,
+      "topRequiredMass": 59.690260418
+    },
+    "sweetness": {
+      "equivPer100": 22.084483117
+    }
+  },
+  "tetyanaClassic__classic_sourcream_frosting": {
+    "dough": {
+      "bakedMass": 567.055423608,
+      "ballWeight": 81.942029352,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 655.536234814,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 19.537075124
+    }
+  },
+  "tetyanaClassic__hiba": {
+    "dough": {
+      "bakedMass": 567.055423608,
+      "ballWeight": 81.942029352,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 655.536234814,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 475.008809223,
+      "onCakeRequiredMass": 553.724554751,
+      "sideRequiredMass": 33.476811317,
+      "topRequiredMass": 45.238934212
+    },
+    "sweetness": {
+      "equivPer100": 16.824406951
+    }
+  },
+  "tetyanaClassic__shouqi_1": {
+    "dough": {
+      "bakedMass": 567.055423608,
+      "ballWeight": 81.942029352,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 655.536234814,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 23.346936301
+    }
+  },
+  "tetyanaClassic__shouqi_2": {
+    "dough": {
+      "bakedMass": 567.055423608,
+      "ballWeight": 81.942029352,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 655.536234814,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 514.592876658,
+      "onCakeRequiredMass": 599.868267647,
+      "sideRequiredMass": 36.266545593,
+      "topRequiredMass": 49.008845396
+    },
+    "sweetness": {
+      "equivPer100": 22.876114029
+    }
+  },
+  "tetyanaClassic__shouqi_3": {
+    "dough": {
+      "bakedMass": 567.055423608,
+      "ballWeight": 81.942029352,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 655.536234814,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 28.986928887
+    }
+  },
+  "tetyanaClassic__younis_cream1": {
+    "dough": {
+      "bakedMass": 567.055423608,
+      "ballWeight": 81.942029352,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 655.536234814,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 23.658943363
+    }
+  },
+  "tetyanaClassic__younis_cream2": {
+    "dough": {
+      "bakedMass": 567.055423608,
+      "ballWeight": 81.942029352,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 655.536234814,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 20.494001506
+    }
+  },
+  "tetyanaSpartak__ayahabib": {
+    "dough": {
+      "bakedMass": 559.368935634,
+      "ballWeight": null,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 716.840624065,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 23.374450745
+    }
+  },
+  "tetyanaSpartak__classic_dulce_sourcream": {
+    "dough": {
+      "bakedMass": 559.368935634,
+      "ballWeight": null,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 716.840624065,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 626.747734391,
+      "onCakeRequiredMass": 730.608787519,
+      "sideRequiredMass": 44.170792709,
+      "topRequiredMass": 59.690260418
+    },
+    "sweetness": {
+      "equivPer100": 24.459644386
+    }
+  },
+  "tetyanaSpartak__classic_sourcream_frosting": {
+    "dough": {
+      "bakedMass": 559.368935634,
+      "ballWeight": null,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 716.840624065,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 494.80084294,
+      "onCakeRequiredMass": 576.796411199,
+      "sideRequiredMass": 34.871678455,
+      "topRequiredMass": 47.123889804
+    },
+    "sweetness": {
+      "equivPer100": 22.315360668
+    }
+  },
+  "tetyanaSpartak__hiba": {
+    "dough": {
+      "bakedMass": 559.368935634,
+      "ballWeight": null,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 716.840624065,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 475.008809223,
+      "onCakeRequiredMass": 553.724554751,
+      "sideRequiredMass": 33.476811317,
+      "topRequiredMass": 45.238934212
+    },
+    "sweetness": {
+      "equivPer100": 19.784028072
+    }
+  },
+  "tetyanaSpartak__shouqi_1": {
+    "dough": {
+      "bakedMass": 559.368935634,
+      "ballWeight": null,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 716.840624065,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 25.869687417
+    }
+  },
+  "tetyanaSpartak__shouqi_2": {
+    "dough": {
+      "bakedMass": 559.368935634,
+      "ballWeight": null,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 716.840624065,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 514.592876658,
+      "onCakeRequiredMass": 599.868267647,
+      "sideRequiredMass": 36.266545593,
+      "topRequiredMass": 49.008845396
+    },
+    "sweetness": {
+      "equivPer100": 25.45025578
+    }
+  },
+  "tetyanaSpartak__shouqi_3": {
+    "dough": {
+      "bakedMass": 559.368935634,
+      "ballWeight": null,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 716.840624065,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 31.186622781
+    }
+  },
+  "tetyanaSpartak__younis_cream1": {
+    "dough": {
+      "bakedMass": 559.368935634,
+      "ballWeight": null,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 716.840624065,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 527.787565803,
+      "onCakeRequiredMass": 615.249505279,
+      "sideRequiredMass": 37.196457019,
+      "topRequiredMass": 50.265482457
+    },
+    "sweetness": {
+      "equivPer100": 26.167335539
+    }
+  },
+  "tetyanaSpartak__younis_cream2": {
+    "dough": {
+      "bakedMass": 559.368935634,
+      "ballWeight": null,
+      "densityStatus": "MODEL_ESTIMATE",
+      "netRaw": 716.840624065,
+      "thicknessAudit": {
+        "status": "INSUFFICIENT_DATA"
+      }
+    },
+    "filling": {
+      "interiorRequiredMass": 560.774288666,
+      "onCakeRequiredMass": 653.702599359,
+      "sideRequiredMass": 39.521235582,
+      "topRequiredMass": 53.407075111
+    },
+    "sweetness": {
+      "equivPer100": 23.073583985
+    }
+  }
+}

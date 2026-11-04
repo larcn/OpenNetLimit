@@ -1,0 +1,378 @@
+{
+  "generatedAt": "2026-10-24T20:54:56.294292+00:00",
+  "total": 54,
+  "passed": 54,
+  "failed": 0,
+  "pageErrors": [],
+  "consoleErrors": [],
+  "results": [
+    {
+      "name": "Application loads with main heading",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Eight primary workflow steps are visible",
+      "ok": true,
+      "detail": 8
+    },
+    {
+      "name": "Cooking mode switch exists",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Advanced mode switch appears",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "View mode does not mutate product calculation inputs",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Workflow step 1 opens: التهيئة",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Workflow step 2 opens: بروتوكول العجين والتحضير",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Workflow step 3 opens: الخبز",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Workflow step 4 opens: الحشو وشرح الحشو",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Workflow step 5 opens: التجميع والنضج",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Workflow step 6 opens: النتيجة والحفظ",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Workflow step 7 opens: مشاكل وحلول",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Workflow step 8 opens: قاعدة علمية",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Science reference visibly declares missing legacy evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Nine built-in dough recipes are selectable",
+      "ok": true,
+      "detail": [
+        "builtin:dough:ayaHabib",
+        "builtin:dough:ahmedShouqi",
+        "builtin:dough:ahmedYounis",
+        "builtin:dough:tetyanaSpartak",
+        "builtin:dough:tetyanaClassic",
+        "builtin:dough:dinaFamily",
+        "builtin:dough:hebaAbuElKhair",
+        "builtin:dough:smittenKitchen",
+        "builtin:dough:davidCooking"
+      ]
+    },
+    {
+      "name": "Recipe selection updates session: ayaHabib",
+      "ok": true,
+      "detail": "ayaHabib"
+    },
+    {
+      "name": "Recipe selection updates session: ahmedShouqi",
+      "ok": true,
+      "detail": "ahmedShouqi"
+    },
+    {
+      "name": "Recipe selection updates session: ahmedYounis",
+      "ok": true,
+      "detail": "ahmedYounis"
+    },
+    {
+      "name": "Recipe selection updates session: tetyanaSpartak",
+      "ok": true,
+      "detail": "tetyanaSpartak"
+    },
+    {
+      "name": "Recipe selection updates session: tetyanaClassic",
+      "ok": true,
+      "detail": "tetyanaClassic"
+    },
+    {
+      "name": "Recipe selection updates session: dinaFamily",
+      "ok": true,
+      "detail": "dinaFamily"
+    },
+    {
+      "name": "Recipe selection updates session: hebaAbuElKhair",
+      "ok": true,
+      "detail": "hebaAbuElKhair"
+    },
+    {
+      "name": "Recipe selection updates session: smittenKitchen",
+      "ok": true,
+      "detail": "smittenKitchen"
+    },
+    {
+      "name": "Recipe selection updates session: davidCooking",
+      "ok": true,
+      "detail": "davidCooking"
+    },
+    {
+      "name": "Spartak review says batter is spread in pan",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Shouqi process does not show generic tempering button",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Aya process exposes tempering tool",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Tempering does not claim safe batch count",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Tempering does not show null target temperature as scientific goal",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Tempering drawer explains volumetric estimate",
+      "ok": true,
+      "detail": "أدوات مساندة\nحاسبة التمبرنج\nإغلاق\nاتجاه الوصفة الحالية\n\nإضافة البيض إلى القاعدة الساخنة\n\nاتجاه الدمج\nإضافة البيض إلى القاعدة الساخنة\nإضافة القاعدة الساخنة إلى البيض\nكتلة البيض (جم)\nحرارة البيض (°م)\nكتلة القاعدة الساخنة (جم)\nحرارة القاعدة (°م)\nعدد الدفعات\nمتوسط الحرارة النهائي57.1°م\nقراءة النهايةأقل حرارياً في المتوسط الحجمي\nحجم الدفعة المضافة22.3 g\nالدفعة\tمتوسط الحرارة بعد الدمج\tالقراءة\n1\t69.1°م\tتحتاج خفقاً سريعاً ومراقبة\n2\t64.3°م\tأقل حرارياً في المتوسط الحجمي\n3\t60.4°م\tأقل حرارياً في المتوسط الحجمي\n4\t57.1°م\tأقل حرارياً في المتوسط الحجمي\nما يجب مراعاته\nهذا تقدير لاتزان الحرارة في كامل الكتلة، ل"
+    },
+    {
+      "name": "Tempering drawer avoids guarantee wording",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Tempering drawer exposes mixing direction",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Nine built-in fillings are selectable",
+      "ok": true,
+      "detail": [
+        "builtin:filling:shouqi_1",
+        "builtin:filling:shouqi_2",
+        "builtin:filling:shouqi_3",
+        "builtin:filling:ayahabib",
+        "builtin:filling:younis_cream1",
+        "builtin:filling:younis_cream2",
+        "builtin:filling:hiba",
+        "builtin:filling:classic_sourcream_frosting",
+        "builtin:filling:classic_dulce_sourcream"
+      ]
+    },
+    {
+      "name": "Filling selection updates session: shouqi_1",
+      "ok": true,
+      "detail": "shouqi_1"
+    },
+    {
+      "name": "Filling selection updates session: shouqi_2",
+      "ok": true,
+      "detail": "shouqi_2"
+    },
+    {
+      "name": "Filling selection updates session: shouqi_3",
+      "ok": true,
+      "detail": "shouqi_3"
+    },
+    {
+      "name": "Filling selection updates session: ayahabib",
+      "ok": true,
+      "detail": "ayahabib"
+    },
+    {
+      "name": "Filling selection updates session: younis_cream1",
+      "ok": true,
+      "detail": "younis_cream1"
+    },
+    {
+      "name": "Filling selection updates session: younis_cream2",
+      "ok": true,
+      "detail": "younis_cream2"
+    },
+    {
+      "name": "Filling selection updates session: hiba",
+      "ok": true,
+      "detail": "hiba"
+    },
+    {
+      "name": "Filling selection updates session: classic_sourcream_frosting",
+      "ok": true,
+      "detail": "classic_sourcream_frosting"
+    },
+    {
+      "name": "Filling selection updates session: classic_dulce_sourcream",
+      "ok": true,
+      "detail": "classic_dulce_sourcream"
+    },
+    {
+      "name": "Setup has separate raw and baked thickness fields",
+      "ok": true,
+      "detail": {
+        "count": 4,
+        "body": "تجاوز التنقل إلى محتوى المرحلة\nMEDOVIK\nمطبخ علمي · وصفات قابلة للضبط\nM\nالإعداد\n1\nالتهيئة\nالتنفيذ\n2\nبروتوكول العجين والتحضير\n3\nالخبز\n4\nالحشو وشرح الحشو\n5\nالتجميع والنضج\n6\nالنتيجة والحفظ\nالمرجع\n7\nمشاكل وحلول\n8\nقاعدة علمية\nلقطة الجلسة\nالعجين\nآية حبيب - كلاسيكية\nالحشو\nكريمة دولسي دي ليتشي مع ساور كريم\nالمقاس\n20 سم\n\nيمكنك الانتقال بين المراحل دون فقد إعدادات الوصفة.\n\nMEDOVIK / SCIENTIFIC KITCHEN\nمختبر كيكة العسل\n\nتصنيع منظم، ومقادير مرتبطة بوصفة قابلة للتتبع\n\nعرض متقدم\nالأدوات\nجلسة جديدة\nمسار التصنيع / المرحلة 1 من 6\n01\nالتهيئة\n\nاختر وصفة العجين، حدّد القالب وعدد الطبقات وسماكة العجين، ثم اقرأ المقادير مباشرة كنسب خباز أولًا وجرامات تنفيذية ثانيًا.\n\nالوصفة: آية حبيب - كلاسيكية\nالقطر: 20 سم\nالطبقات: 8\nاختيار الوصفة\n\nاختر وصفة جاهزة أو اكتب وصفة حرة، لكن دع القراءة تبقى كنسب خباز قبل أي أرقام تنف"
+      }
+    },
+    {
+      "name": "Raw thickness stored independently",
+      "ok": true,
+      "detail": {
+        "shape": "round",
+        "d1": 20,
+        "d2": 30,
+        "layers": 8,
+        "rawSheetThicknessMm": 1.2,
+        "targetBakedLayerThicknessMm": 2.6,
+        "estimatedBakedLayerThicknessMm": 2.6,
+        "fillingThicknessMm": 3,
+        "includeOuterCoat": true,
+        "topCoatThicknessMm": 2,
+        "sideCoatThicknessMm": 2,
+        "wastePct": 10,
+        "scaleMode": "volume",
+        "ballWeight": 140,
+        "targetFlourWeight": 500,
+        "legacyAmbiguousThickness": false,
+        "targetHeightCm": null
+      }
+    },
+    {
+      "name": "Baked thickness stored independently",
+      "ok": true,
+      "detail": {
+        "shape": "round",
+        "d1": 20,
+        "d2": 30,
+        "layers": 8,
+        "rawSheetThicknessMm": 1.2,
+        "targetBakedLayerThicknessMm": 2.6,
+        "estimatedBakedLayerThicknessMm": 2.6,
+        "fillingThicknessMm": 3,
+        "includeOuterCoat": true,
+        "topCoatThicknessMm": 2,
+        "sideCoatThicknessMm": 2,
+        "wastePct": 10,
+        "scaleMode": "volume",
+        "ballWeight": 140,
+        "targetFlourWeight": 500,
+        "legacyAmbiguousThickness": false,
+        "targetHeightCm": null
+      }
+    },
+    {
+      "name": "Invalid product values are clamped",
+      "ok": true,
+      "detail": {
+        "shape": "round",
+        "d1": 5,
+        "d2": 30,
+        "layers": 1,
+        "rawSheetThicknessMm": 0.2,
+        "targetBakedLayerThicknessMm": 0.2,
+        "estimatedBakedLayerThicknessMm": 2.6,
+        "fillingThicknessMm": 3,
+        "includeOuterCoat": true,
+        "topCoatThicknessMm": 2,
+        "sideCoatThicknessMm": 2,
+        "wastePct": 50,
+        "scaleMode": "volume",
+        "ballWeight": 140,
+        "targetFlourWeight": 500,
+        "legacyAmbiguousThickness": false,
+        "targetHeightCm": null
+      }
+    },
+    {
+      "name": "Stored XSS payload is neutralized",
+      "ok": true,
+      "detail": {
+        "before": {
+          "stored": "‹/textarea›‹img id=\"xss-probe\" src=x onerror=\"window.__medovikXss=1\"›",
+          "flag": 0,
+          "image": false
+        },
+        "after": {
+          "flag": 0,
+          "image": false
+        }
+      }
+    },
+    {
+      "name": "Save stores the currently scaled dough formula",
+      "ok": true,
+      "detail": {
+        "expected": 1454.4760708030851,
+        "saved": {
+          "count": 1,
+          "mass": 1454.4760708030851,
+          "status": {
+            "ok": true,
+            "at": "2026-10-24T20:54:55.627Z",
+            "error": null
+          }
+        }
+      }
+    },
+    {
+      "name": "Save presents a clear success message",
+      "ok": true,
+      "detail": "تم حفظ العجين كما يظهر الآن في الجلسة.\n×"
+    },
+    {
+      "name": "Every registered tool renders without an exception",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Normal interface avoids scientific-confidence panel",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Normal filling UI does not call the compound metric Brix",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "No uncaught page errors",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "No browser console errors",
+      "ok": true,
+      "detail": []
+    }
+  ]
+}

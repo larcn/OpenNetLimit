@@ -1,0 +1,2144 @@
+{
+  "cream_cheese_powdered": {
+    "15": {
+      "achievedPct": 15,
+      "achievedTotalEq": 138,
+      "addedDairyMass": 90,
+      "adjustableDistribution": [
+        {
+          "index": 2,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 1.135231317,
+      "algebraicAddedDairyMass": 90,
+      "algebraicFactor": 1.15,
+      "baseTotalEq": 120,
+      "beforeRatio": 1.135231317,
+      "compensationElementIds": [
+        "whipping-cream",
+        "cream-cheese"
+      ],
+      "compensationNames": [
+        "كريمة خفق",
+        "جبن كريمي"
+      ],
+      "compositionFeasibleAddedDairyMass": 90,
+      "compositionLimitationReason": null,
+      "compositionLimited": false,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "whipping-cream",
+            "name": "كريمة خفق",
+            "share": 0.666666667
+          },
+          {
+            "index": 1,
+            "ingredientId": "cream-cheese",
+            "name": "جبن كريمي",
+            "share": 0.333333333
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 140,
+            "index": 0,
+            "ing": {
+              "acidity": "neutral",
+              "density": 1,
+              "displayName": "كريمة خفق",
+              "fatFrac": 0.35,
+              "handling": {
+                "cold": true,
+                "maxTemp": 6,
+                "minTemp": 2,
+                "notes": "برّد الوعاء والمضرب قبل الخفق.",
+                "science": "الدهون تشكل شبكة حول فقاعات الهواء عند الخفق"
+              },
+              "id": "whipping-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 6.7,
+              "proteinFrac": 0.03,
+              "roles": [
+                "fat-phase",
+                "emulsifier",
+                "body",
+                "aeration"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "قيم الخفق والهواء ليست تركيبا غذائيا خاما بل سلوكا تشغيليا يتغير مع الحرارة والقص ومهارة الخفق."
+                ],
+                "referenceIds": [
+                  "usda_fdc",
+                  "pubmed_whipped_cream_temp"
+                ],
+                "summary": "كريمة خفق ثقيلة تقريبية 33–36% دهن. التركيب المرجعي ثابت نسبيًا، لكن السلوك الهوائي/الكثافة التشغيلية يعتمد على درجة الخفق والحرارة.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH",
+                  "expectedAirBand"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.58
+            },
+            "ingredientId": "whipping-cream",
+            "name": "كريمة خفق",
+            "otherSolids": 0,
+            "protein": 12,
+            "solids": 168,
+            "sugar": 16,
+            "sweetnessEq": 3.2,
+            "water": 232,
+            "weight": 400
+          },
+          {
+            "fat": 66,
+            "index": 1,
+            "ing": {
+              "acidity": "slightly-acidic",
+              "density": 1.1,
+              "displayName": "جبن كريمي",
+              "fatFrac": 0.33,
+              "handling": {
+                "maxTemp": 22,
+                "minTemp": 18,
+                "notes": "ليّن حتى 18–20°C؛ اخفق على سرعة منخفضة حتى ناعم.",
+                "science": "بروتينات الكازين تشكل هيكلاً جيلاتينياً"
+              },
+              "id": "cream-cheese",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0.02,
+              "pH": 4.9,
+              "proteinFrac": 0.09,
+              "roles": [
+                "structure",
+                "stabilizer",
+                "fat-phase",
+                "emulsifier"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "proteinFrac": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي."
+                ],
+                "referenceIds": [
+                  "usda_fdc",
+                  "fda_cream_cheese"
+                ],
+                "summary": "جبن كريمي كامل الدسم بحد أدنى معياري 33% دهن وبحد أقصى رطوبة 55% تقريباً، مع تقريب التركيب الفعلي للاستخدام الحسابي.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.52
+            },
+            "ingredientId": "cream-cheese",
+            "name": "جبن كريمي",
+            "otherSolids": 4,
+            "protein": 18,
+            "solids": 96,
+            "sugar": 8,
+            "sweetnessEq": 1.6,
+            "water": 104,
+            "weight": 200
+          }
+        ],
+        "names": [
+          "كريمة خفق",
+          "جبن كريمي"
+        ],
+        "solidsFrac": 0.44,
+        "totalMass": 600,
+        "waterFrac": 0.56
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "whipping-cream",
+          "name": "كريمة خفق",
+          "share": 0.666666667
+        },
+        {
+          "index": 1,
+          "ingredientId": "cream-cheese",
+          "name": "جبن كريمي",
+          "share": 0.333333333
+        }
+      ],
+      "factor": 1.15,
+      "fixedSweetNames": [
+        "كريمة خفق",
+        "جبن كريمي"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": 15,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": 90,
+          "factor": 1.15
+        },
+        "compositionFeasible": {
+          "achievedPct": 15,
+          "addedDairyMass": 90,
+          "afterRatio": 1.135231317,
+          "factor": 1.15
+        }
+      },
+      "targetRatio": 1.135231317,
+      "targetTotalEq": 138,
+      "totalBaseMass": 720,
+      "unconstrainedAchievedPct": 15
+    },
+    "30": {
+      "achievedPct": 30,
+      "achievedTotalEq": 156,
+      "addedDairyMass": 180,
+      "adjustableDistribution": [
+        {
+          "index": 2,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 1.135231317,
+      "algebraicAddedDairyMass": 180,
+      "algebraicFactor": 1.3,
+      "baseTotalEq": 120,
+      "beforeRatio": 1.135231317,
+      "compensationElementIds": [
+        "whipping-cream",
+        "cream-cheese"
+      ],
+      "compensationNames": [
+        "كريمة خفق",
+        "جبن كريمي"
+      ],
+      "compositionFeasibleAddedDairyMass": 180,
+      "compositionLimitationReason": null,
+      "compositionLimited": false,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "whipping-cream",
+            "name": "كريمة خفق",
+            "share": 0.666666667
+          },
+          {
+            "index": 1,
+            "ingredientId": "cream-cheese",
+            "name": "جبن كريمي",
+            "share": 0.333333333
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 140,
+            "index": 0,
+            "ing": {
+              "acidity": "neutral",
+              "density": 1,
+              "displayName": "كريمة خفق",
+              "fatFrac": 0.35,
+              "handling": {
+                "cold": true,
+                "maxTemp": 6,
+                "minTemp": 2,
+                "notes": "برّد الوعاء والمضرب قبل الخفق.",
+                "science": "الدهون تشكل شبكة حول فقاعات الهواء عند الخفق"
+              },
+              "id": "whipping-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 6.7,
+              "proteinFrac": 0.03,
+              "roles": [
+                "fat-phase",
+                "emulsifier",
+                "body",
+                "aeration"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "قيم الخفق والهواء ليست تركيبا غذائيا خاما بل سلوكا تشغيليا يتغير مع الحرارة والقص ومهارة الخفق."
+                ],
+                "referenceIds": [
+                  "usda_fdc",
+                  "pubmed_whipped_cream_temp"
+                ],
+                "summary": "كريمة خفق ثقيلة تقريبية 33–36% دهن. التركيب المرجعي ثابت نسبيًا، لكن السلوك الهوائي/الكثافة التشغيلية يعتمد على درجة الخفق والحرارة.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH",
+                  "expectedAirBand"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.58
+            },
+            "ingredientId": "whipping-cream",
+            "name": "كريمة خفق",
+            "otherSolids": 0,
+            "protein": 12,
+            "solids": 168,
+            "sugar": 16,
+            "sweetnessEq": 3.2,
+            "water": 232,
+            "weight": 400
+          },
+          {
+            "fat": 66,
+            "index": 1,
+            "ing": {
+              "acidity": "slightly-acidic",
+              "density": 1.1,
+              "displayName": "جبن كريمي",
+              "fatFrac": 0.33,
+              "handling": {
+                "maxTemp": 22,
+                "minTemp": 18,
+                "notes": "ليّن حتى 18–20°C؛ اخفق على سرعة منخفضة حتى ناعم.",
+                "science": "بروتينات الكازين تشكل هيكلاً جيلاتينياً"
+              },
+              "id": "cream-cheese",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0.02,
+              "pH": 4.9,
+              "proteinFrac": 0.09,
+              "roles": [
+                "structure",
+                "stabilizer",
+                "fat-phase",
+                "emulsifier"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "proteinFrac": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي."
+                ],
+                "referenceIds": [
+                  "usda_fdc",
+                  "fda_cream_cheese"
+                ],
+                "summary": "جبن كريمي كامل الدسم بحد أدنى معياري 33% دهن وبحد أقصى رطوبة 55% تقريباً، مع تقريب التركيب الفعلي للاستخدام الحسابي.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.52
+            },
+            "ingredientId": "cream-cheese",
+            "name": "جبن كريمي",
+            "otherSolids": 4,
+            "protein": 18,
+            "solids": 96,
+            "sugar": 8,
+            "sweetnessEq": 1.6,
+            "water": 104,
+            "weight": 200
+          }
+        ],
+        "names": [
+          "كريمة خفق",
+          "جبن كريمي"
+        ],
+        "solidsFrac": 0.44,
+        "totalMass": 600,
+        "waterFrac": 0.56
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "whipping-cream",
+          "name": "كريمة خفق",
+          "share": 0.666666667
+        },
+        {
+          "index": 1,
+          "ingredientId": "cream-cheese",
+          "name": "جبن كريمي",
+          "share": 0.333333333
+        }
+      ],
+      "factor": 1.3,
+      "fixedSweetNames": [
+        "كريمة خفق",
+        "جبن كريمي"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": 30,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": 180,
+          "factor": 1.3
+        },
+        "compositionFeasible": {
+          "achievedPct": 30,
+          "addedDairyMass": 180,
+          "afterRatio": 1.135231317,
+          "factor": 1.3
+        }
+      },
+      "targetRatio": 1.135231317,
+      "targetTotalEq": 156,
+      "totalBaseMass": 720,
+      "unconstrainedAchievedPct": 30
+    },
+    "-15": {
+      "achievedPct": -14.4,
+      "achievedTotalEq": 102.72,
+      "addedDairyMass": 0,
+      "adjustableDistribution": [
+        {
+          "index": 2,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 1.082962435,
+      "algebraicAddedDairyMass": -90,
+      "algebraicFactor": 0.85,
+      "baseTotalEq": 120,
+      "beforeRatio": 1.135231317,
+      "compensationElementIds": [
+        "whipping-cream",
+        "cream-cheese"
+      ],
+      "compensationNames": [
+        "كريمة خفق",
+        "جبن كريمي"
+      ],
+      "compositionFeasibleAddedDairyMass": 0,
+      "compositionLimitationReason": "negative-dairy",
+      "compositionLimited": true,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "whipping-cream",
+            "name": "كريمة خفق",
+            "share": 0.666666667
+          },
+          {
+            "index": 1,
+            "ingredientId": "cream-cheese",
+            "name": "جبن كريمي",
+            "share": 0.333333333
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 140,
+            "index": 0,
+            "ing": {
+              "acidity": "neutral",
+              "density": 1,
+              "displayName": "كريمة خفق",
+              "fatFrac": 0.35,
+              "handling": {
+                "cold": true,
+                "maxTemp": 6,
+                "minTemp": 2,
+                "notes": "برّد الوعاء والمضرب قبل الخفق.",
+                "science": "الدهون تشكل شبكة حول فقاعات الهواء عند الخفق"
+              },
+              "id": "whipping-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 6.7,
+              "proteinFrac": 0.03,
+              "roles": [
+                "fat-phase",
+                "emulsifier",
+                "body",
+                "aeration"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "قيم الخفق والهواء ليست تركيبا غذائيا خاما بل سلوكا تشغيليا يتغير مع الحرارة والقص ومهارة الخفق."
+                ],
+                "referenceIds": [
+                  "usda_fdc",
+                  "pubmed_whipped_cream_temp"
+                ],
+                "summary": "كريمة خفق ثقيلة تقريبية 33–36% دهن. التركيب المرجعي ثابت نسبيًا، لكن السلوك الهوائي/الكثافة التشغيلية يعتمد على درجة الخفق والحرارة.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH",
+                  "expectedAirBand"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.58
+            },
+            "ingredientId": "whipping-cream",
+            "name": "كريمة خفق",
+            "otherSolids": 0,
+            "protein": 12,
+            "solids": 168,
+            "sugar": 16,
+            "sweetnessEq": 3.2,
+            "water": 232,
+            "weight": 400
+          },
+          {
+            "fat": 66,
+            "index": 1,
+            "ing": {
+              "acidity": "slightly-acidic",
+              "density": 1.1,
+              "displayName": "جبن كريمي",
+              "fatFrac": 0.33,
+              "handling": {
+                "maxTemp": 22,
+                "minTemp": 18,
+                "notes": "ليّن حتى 18–20°C؛ اخفق على سرعة منخفضة حتى ناعم.",
+                "science": "بروتينات الكازين تشكل هيكلاً جيلاتينياً"
+              },
+              "id": "cream-cheese",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0.02,
+              "pH": 4.9,
+              "proteinFrac": 0.09,
+              "roles": [
+                "structure",
+                "stabilizer",
+                "fat-phase",
+                "emulsifier"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "proteinFrac": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي."
+                ],
+                "referenceIds": [
+                  "usda_fdc",
+                  "fda_cream_cheese"
+                ],
+                "summary": "جبن كريمي كامل الدسم بحد أدنى معياري 33% دهن وبحد أقصى رطوبة 55% تقريباً، مع تقريب التركيب الفعلي للاستخدام الحسابي.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.52
+            },
+            "ingredientId": "cream-cheese",
+            "name": "جبن كريمي",
+            "otherSolids": 4,
+            "protein": 18,
+            "solids": 96,
+            "sugar": 8,
+            "sweetnessEq": 1.6,
+            "water": 104,
+            "weight": 200
+          }
+        ],
+        "names": [
+          "كريمة خفق",
+          "جبن كريمي"
+        ],
+        "solidsFrac": 0.44,
+        "totalMass": 600,
+        "waterFrac": 0.56
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "whipping-cream",
+          "name": "كريمة خفق",
+          "share": 0.666666667
+        },
+        {
+          "index": 1,
+          "ingredientId": "cream-cheese",
+          "name": "جبن كريمي",
+          "share": 0.333333333
+        }
+      ],
+      "factor": 0.85,
+      "fixedSweetNames": [
+        "كريمة خفق",
+        "جبن كريمي"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": -15,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": -90,
+          "factor": 0.85
+        },
+        "compositionFeasible": {
+          "achievedPct": -14.4,
+          "addedDairyMass": 0,
+          "afterRatio": 1.082962435,
+          "factor": 0.85
+        }
+      },
+      "targetRatio": 1.135231317,
+      "targetTotalEq": 102,
+      "totalBaseMass": 720,
+      "unconstrainedAchievedPct": -14.4
+    },
+    "-30": {
+      "achievedPct": -28.8,
+      "achievedTotalEq": 85.44,
+      "addedDairyMass": 0,
+      "adjustableDistribution": [
+        {
+          "index": 2,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 1.030637691,
+      "algebraicAddedDairyMass": -180,
+      "algebraicFactor": 0.7,
+      "baseTotalEq": 120,
+      "beforeRatio": 1.135231317,
+      "compensationElementIds": [
+        "whipping-cream",
+        "cream-cheese"
+      ],
+      "compensationNames": [
+        "كريمة خفق",
+        "جبن كريمي"
+      ],
+      "compositionFeasibleAddedDairyMass": 0,
+      "compositionLimitationReason": "negative-dairy",
+      "compositionLimited": true,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "whipping-cream",
+            "name": "كريمة خفق",
+            "share": 0.666666667
+          },
+          {
+            "index": 1,
+            "ingredientId": "cream-cheese",
+            "name": "جبن كريمي",
+            "share": 0.333333333
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 140,
+            "index": 0,
+            "ing": {
+              "acidity": "neutral",
+              "density": 1,
+              "displayName": "كريمة خفق",
+              "fatFrac": 0.35,
+              "handling": {
+                "cold": true,
+                "maxTemp": 6,
+                "minTemp": 2,
+                "notes": "برّد الوعاء والمضرب قبل الخفق.",
+                "science": "الدهون تشكل شبكة حول فقاعات الهواء عند الخفق"
+              },
+              "id": "whipping-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 6.7,
+              "proteinFrac": 0.03,
+              "roles": [
+                "fat-phase",
+                "emulsifier",
+                "body",
+                "aeration"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "قيم الخفق والهواء ليست تركيبا غذائيا خاما بل سلوكا تشغيليا يتغير مع الحرارة والقص ومهارة الخفق."
+                ],
+                "referenceIds": [
+                  "usda_fdc",
+                  "pubmed_whipped_cream_temp"
+                ],
+                "summary": "كريمة خفق ثقيلة تقريبية 33–36% دهن. التركيب المرجعي ثابت نسبيًا، لكن السلوك الهوائي/الكثافة التشغيلية يعتمد على درجة الخفق والحرارة.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH",
+                  "expectedAirBand"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.58
+            },
+            "ingredientId": "whipping-cream",
+            "name": "كريمة خفق",
+            "otherSolids": 0,
+            "protein": 12,
+            "solids": 168,
+            "sugar": 16,
+            "sweetnessEq": 3.2,
+            "water": 232,
+            "weight": 400
+          },
+          {
+            "fat": 66,
+            "index": 1,
+            "ing": {
+              "acidity": "slightly-acidic",
+              "density": 1.1,
+              "displayName": "جبن كريمي",
+              "fatFrac": 0.33,
+              "handling": {
+                "maxTemp": 22,
+                "minTemp": 18,
+                "notes": "ليّن حتى 18–20°C؛ اخفق على سرعة منخفضة حتى ناعم.",
+                "science": "بروتينات الكازين تشكل هيكلاً جيلاتينياً"
+              },
+              "id": "cream-cheese",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0.02,
+              "pH": 4.9,
+              "proteinFrac": 0.09,
+              "roles": [
+                "structure",
+                "stabilizer",
+                "fat-phase",
+                "emulsifier"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "proteinFrac": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي."
+                ],
+                "referenceIds": [
+                  "usda_fdc",
+                  "fda_cream_cheese"
+                ],
+                "summary": "جبن كريمي كامل الدسم بحد أدنى معياري 33% دهن وبحد أقصى رطوبة 55% تقريباً، مع تقريب التركيب الفعلي للاستخدام الحسابي.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.52
+            },
+            "ingredientId": "cream-cheese",
+            "name": "جبن كريمي",
+            "otherSolids": 4,
+            "protein": 18,
+            "solids": 96,
+            "sugar": 8,
+            "sweetnessEq": 1.6,
+            "water": 104,
+            "weight": 200
+          }
+        ],
+        "names": [
+          "كريمة خفق",
+          "جبن كريمي"
+        ],
+        "solidsFrac": 0.44,
+        "totalMass": 600,
+        "waterFrac": 0.56
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "whipping-cream",
+          "name": "كريمة خفق",
+          "share": 0.666666667
+        },
+        {
+          "index": 1,
+          "ingredientId": "cream-cheese",
+          "name": "جبن كريمي",
+          "share": 0.333333333
+        }
+      ],
+      "factor": 0.7,
+      "fixedSweetNames": [
+        "كريمة خفق",
+        "جبن كريمي"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": -30,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": -180,
+          "factor": 0.7
+        },
+        "compositionFeasible": {
+          "achievedPct": -28.8,
+          "addedDairyMass": 0,
+          "afterRatio": 1.030637691,
+          "factor": 0.7
+        }
+      },
+      "targetRatio": 1.135231317,
+      "targetTotalEq": 84,
+      "totalBaseMass": 720,
+      "unconstrainedAchievedPct": -28.8
+    }
+  },
+  "sour_dulce_powdered": {
+    "15": {
+      "achievedPct": 15,
+      "achievedTotalEq": 205.275,
+      "addedDairyMass": 51.561688593,
+      "adjustableDistribution": [
+        {
+          "index": 2,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 1.412280702,
+      "algebraicAddedDairyMass": 51.561688593,
+      "algebraicFactor": 1.457682404,
+      "baseTotalEq": 178.5,
+      "beforeRatio": 1.412280702,
+      "compensationElementIds": [
+        "sour-cream"
+      ],
+      "compensationNames": [
+        "ساور كريم"
+      ],
+      "compositionFeasibleAddedDairyMass": 51.561688593,
+      "compositionLimitationReason": null,
+      "compositionLimited": false,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "share": 1
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 90,
+            "index": 0,
+            "ing": {
+              "acidity": "acidic",
+              "density": 1.05,
+              "displayName": "ساور كريم",
+              "fatFrac": 0.3,
+              "handling": {
+                "cold": true,
+                "maxTemp": 8,
+                "minTemp": 2,
+                "notes": "قد تحتاج تصفية 6–8 ساعات لثبات أعلى.",
+                "science": "تحتوي على بكتيريا lactic acid التي تخمر اللاكتوز"
+              },
+              "id": "sour-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 4.5,
+              "proteinFrac": 0.03,
+              "roles": [
+                "aqueous",
+                "fat-phase",
+                "stabilizer",
+                "flavor"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "pH": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "إذا صُفيت القشطة الحامضة فالماء الفعلي والكثافة التشغيلية يتغيران، لذلك يجب تحديث القراءة عملياً عند العمل بوصفة مصفاة."
+                ],
+                "referenceIds": [
+                  "usda_fdc"
+                ],
+                "summary": "ساور كريم/سميتانا كاملة الدسم تقريبية (~30% دهن). التصفية والبلد التجاري يغيران الماء والكثافة بوضوح.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.63
+            },
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "otherSolids": 0,
+            "protein": 9,
+            "solids": 111,
+            "sugar": 12,
+            "sweetnessEq": 2.4,
+            "water": 189,
+            "weight": 300
+          }
+        ],
+        "names": [
+          "ساور كريم"
+        ],
+        "solidsFrac": 0.37,
+        "totalMass": 300,
+        "waterFrac": 0.63
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "sour-cream",
+          "name": "ساور كريم",
+          "share": 1
+        }
+      ],
+      "factor": 1.457682404,
+      "fixedSweetNames": [
+        "ساور كريم",
+        "دولسي دي ليتشي"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": 15,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": 51.561688593,
+          "factor": 1.457682404
+        },
+        "compositionFeasible": {
+          "achievedPct": 15,
+          "addedDairyMass": 51.561688593,
+          "afterRatio": 1.412280702,
+          "factor": 1.457682404
+        }
+      },
+      "targetRatio": 1.412280702,
+      "targetTotalEq": 205.275,
+      "totalBaseMass": 660,
+      "unconstrainedAchievedPct": 15
+    },
+    "30": {
+      "achievedPct": 30,
+      "achievedTotalEq": 232.05,
+      "addedDairyMass": 103.123377185,
+      "adjustableDistribution": [
+        {
+          "index": 2,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 1.412280702,
+      "algebraicAddedDairyMass": 103.123377185,
+      "algebraicFactor": 1.915364809,
+      "baseTotalEq": 178.5,
+      "beforeRatio": 1.412280702,
+      "compensationElementIds": [
+        "sour-cream"
+      ],
+      "compensationNames": [
+        "ساور كريم"
+      ],
+      "compositionFeasibleAddedDairyMass": 103.123377185,
+      "compositionLimitationReason": null,
+      "compositionLimited": false,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "share": 1
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 90,
+            "index": 0,
+            "ing": {
+              "acidity": "acidic",
+              "density": 1.05,
+              "displayName": "ساور كريم",
+              "fatFrac": 0.3,
+              "handling": {
+                "cold": true,
+                "maxTemp": 8,
+                "minTemp": 2,
+                "notes": "قد تحتاج تصفية 6–8 ساعات لثبات أعلى.",
+                "science": "تحتوي على بكتيريا lactic acid التي تخمر اللاكتوز"
+              },
+              "id": "sour-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 4.5,
+              "proteinFrac": 0.03,
+              "roles": [
+                "aqueous",
+                "fat-phase",
+                "stabilizer",
+                "flavor"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "pH": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "إذا صُفيت القشطة الحامضة فالماء الفعلي والكثافة التشغيلية يتغيران، لذلك يجب تحديث القراءة عملياً عند العمل بوصفة مصفاة."
+                ],
+                "referenceIds": [
+                  "usda_fdc"
+                ],
+                "summary": "ساور كريم/سميتانا كاملة الدسم تقريبية (~30% دهن). التصفية والبلد التجاري يغيران الماء والكثافة بوضوح.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.63
+            },
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "otherSolids": 0,
+            "protein": 9,
+            "solids": 111,
+            "sugar": 12,
+            "sweetnessEq": 2.4,
+            "water": 189,
+            "weight": 300
+          }
+        ],
+        "names": [
+          "ساور كريم"
+        ],
+        "solidsFrac": 0.37,
+        "totalMass": 300,
+        "waterFrac": 0.63
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "sour-cream",
+          "name": "ساور كريم",
+          "share": 1
+        }
+      ],
+      "factor": 1.915364809,
+      "fixedSweetNames": [
+        "ساور كريم",
+        "دولسي دي ليتشي"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": 30,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": 103.123377185,
+          "factor": 1.915364809
+        },
+        "compositionFeasible": {
+          "achievedPct": 30,
+          "addedDairyMass": 103.123377185,
+          "afterRatio": 1.412280702,
+          "factor": 1.915364809
+        }
+      },
+      "targetRatio": 1.412280702,
+      "targetTotalEq": 232.05,
+      "totalBaseMass": 660,
+      "unconstrainedAchievedPct": 30
+    },
+    "-15": {
+      "achievedPct": -14.7689112,
+      "achievedTotalEq": 152.137493509,
+      "addedDairyMass": 0,
+      "adjustableDistribution": [
+        {
+          "index": 2,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 1.314234526,
+      "algebraicAddedDairyMass": -51.561688593,
+      "algebraicFactor": 0.542317596,
+      "baseTotalEq": 178.5,
+      "beforeRatio": 1.412280702,
+      "compensationElementIds": [
+        "sour-cream"
+      ],
+      "compensationNames": [
+        "ساور كريم"
+      ],
+      "compositionFeasibleAddedDairyMass": 0,
+      "compositionLimitationReason": "negative-dairy",
+      "compositionLimited": true,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "share": 1
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 90,
+            "index": 0,
+            "ing": {
+              "acidity": "acidic",
+              "density": 1.05,
+              "displayName": "ساور كريم",
+              "fatFrac": 0.3,
+              "handling": {
+                "cold": true,
+                "maxTemp": 8,
+                "minTemp": 2,
+                "notes": "قد تحتاج تصفية 6–8 ساعات لثبات أعلى.",
+                "science": "تحتوي على بكتيريا lactic acid التي تخمر اللاكتوز"
+              },
+              "id": "sour-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 4.5,
+              "proteinFrac": 0.03,
+              "roles": [
+                "aqueous",
+                "fat-phase",
+                "stabilizer",
+                "flavor"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "pH": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "إذا صُفيت القشطة الحامضة فالماء الفعلي والكثافة التشغيلية يتغيران، لذلك يجب تحديث القراءة عملياً عند العمل بوصفة مصفاة."
+                ],
+                "referenceIds": [
+                  "usda_fdc"
+                ],
+                "summary": "ساور كريم/سميتانا كاملة الدسم تقريبية (~30% دهن). التصفية والبلد التجاري يغيران الماء والكثافة بوضوح.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.63
+            },
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "otherSolids": 0,
+            "protein": 9,
+            "solids": 111,
+            "sugar": 12,
+            "sweetnessEq": 2.4,
+            "water": 189,
+            "weight": 300
+          }
+        ],
+        "names": [
+          "ساور كريم"
+        ],
+        "solidsFrac": 0.37,
+        "totalMass": 300,
+        "waterFrac": 0.63
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "sour-cream",
+          "name": "ساور كريم",
+          "share": 1
+        }
+      ],
+      "factor": 0.542317596,
+      "fixedSweetNames": [
+        "ساور كريم",
+        "دولسي دي ليتشي"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": -15,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": -51.561688593,
+          "factor": 0.542317596
+        },
+        "compositionFeasible": {
+          "achievedPct": -14.7689112,
+          "addedDairyMass": 0,
+          "afterRatio": 1.314234526,
+          "factor": 0.542317596
+        }
+      },
+      "targetRatio": 1.412280702,
+      "targetTotalEq": 151.725,
+      "totalBaseMass": 660,
+      "unconstrainedAchievedPct": -14.7689112
+    },
+    "-30": {
+      "achievedPct": -29.537822399,
+      "achievedTotalEq": 125.774987017,
+      "addedDairyMass": 0,
+      "adjustableDistribution": [
+        {
+          "index": 2,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 1.215991139,
+      "algebraicAddedDairyMass": -103.123377185,
+      "algebraicFactor": 0.084635191,
+      "baseTotalEq": 178.5,
+      "beforeRatio": 1.412280702,
+      "compensationElementIds": [
+        "sour-cream"
+      ],
+      "compensationNames": [
+        "ساور كريم"
+      ],
+      "compositionFeasibleAddedDairyMass": 0,
+      "compositionLimitationReason": "negative-dairy",
+      "compositionLimited": true,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "share": 1
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 90,
+            "index": 0,
+            "ing": {
+              "acidity": "acidic",
+              "density": 1.05,
+              "displayName": "ساور كريم",
+              "fatFrac": 0.3,
+              "handling": {
+                "cold": true,
+                "maxTemp": 8,
+                "minTemp": 2,
+                "notes": "قد تحتاج تصفية 6–8 ساعات لثبات أعلى.",
+                "science": "تحتوي على بكتيريا lactic acid التي تخمر اللاكتوز"
+              },
+              "id": "sour-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 4.5,
+              "proteinFrac": 0.03,
+              "roles": [
+                "aqueous",
+                "fat-phase",
+                "stabilizer",
+                "flavor"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "pH": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "إذا صُفيت القشطة الحامضة فالماء الفعلي والكثافة التشغيلية يتغيران، لذلك يجب تحديث القراءة عملياً عند العمل بوصفة مصفاة."
+                ],
+                "referenceIds": [
+                  "usda_fdc"
+                ],
+                "summary": "ساور كريم/سميتانا كاملة الدسم تقريبية (~30% دهن). التصفية والبلد التجاري يغيران الماء والكثافة بوضوح.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.63
+            },
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "otherSolids": 0,
+            "protein": 9,
+            "solids": 111,
+            "sugar": 12,
+            "sweetnessEq": 2.4,
+            "water": 189,
+            "weight": 300
+          }
+        ],
+        "names": [
+          "ساور كريم"
+        ],
+        "solidsFrac": 0.37,
+        "totalMass": 300,
+        "waterFrac": 0.63
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "sour-cream",
+          "name": "ساور كريم",
+          "share": 1
+        }
+      ],
+      "factor": 0.084635191,
+      "fixedSweetNames": [
+        "ساور كريم",
+        "دولسي دي ليتشي"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": -30,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": -103.123377185,
+          "factor": 0.084635191
+        },
+        "compositionFeasible": {
+          "achievedPct": -29.537822399,
+          "addedDairyMass": 0,
+          "afterRatio": 1.215991139,
+          "factor": 0.084635191
+        }
+      },
+      "targetRatio": 1.412280702,
+      "targetTotalEq": 124.95,
+      "totalBaseMass": 660,
+      "unconstrainedAchievedPct": -29.537822399
+    }
+  },
+  "sour_powdered": {
+    "15": {
+      "achievedPct": 15,
+      "achievedTotalEq": 170.2,
+      "addedDairyMass": 75,
+      "adjustableDistribution": [
+        {
+          "index": 1,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 1.05371248,
+      "algebraicAddedDairyMass": 75,
+      "algebraicFactor": 1.15,
+      "baseTotalEq": 148,
+      "beforeRatio": 1.05371248,
+      "compensationElementIds": [
+        "sour-cream"
+      ],
+      "compensationNames": [
+        "ساور كريم"
+      ],
+      "compositionFeasibleAddedDairyMass": 75,
+      "compositionLimitationReason": null,
+      "compositionLimited": false,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "share": 1
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 150,
+            "index": 0,
+            "ing": {
+              "acidity": "acidic",
+              "density": 1.05,
+              "displayName": "ساور كريم",
+              "fatFrac": 0.3,
+              "handling": {
+                "cold": true,
+                "maxTemp": 8,
+                "minTemp": 2,
+                "notes": "قد تحتاج تصفية 6–8 ساعات لثبات أعلى.",
+                "science": "تحتوي على بكتيريا lactic acid التي تخمر اللاكتوز"
+              },
+              "id": "sour-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 4.5,
+              "proteinFrac": 0.03,
+              "roles": [
+                "aqueous",
+                "fat-phase",
+                "stabilizer",
+                "flavor"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "pH": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "إذا صُفيت القشطة الحامضة فالماء الفعلي والكثافة التشغيلية يتغيران، لذلك يجب تحديث القراءة عملياً عند العمل بوصفة مصفاة."
+                ],
+                "referenceIds": [
+                  "usda_fdc"
+                ],
+                "summary": "ساور كريم/سميتانا كاملة الدسم تقريبية (~30% دهن). التصفية والبلد التجاري يغيران الماء والكثافة بوضوح.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.63
+            },
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "otherSolids": 0,
+            "protein": 15,
+            "solids": 185,
+            "sugar": 20,
+            "sweetnessEq": 4,
+            "water": 315,
+            "weight": 500
+          }
+        ],
+        "names": [
+          "ساور كريم"
+        ],
+        "solidsFrac": 0.37,
+        "totalMass": 500,
+        "waterFrac": 0.63
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "sour-cream",
+          "name": "ساور كريم",
+          "share": 1
+        }
+      ],
+      "factor": 1.15,
+      "fixedSweetNames": [
+        "ساور كريم"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": 15,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": 75,
+          "factor": 1.15
+        },
+        "compositionFeasible": {
+          "achievedPct": 15,
+          "addedDairyMass": 75,
+          "afterRatio": 1.05371248,
+          "factor": 1.15
+        }
+      },
+      "targetRatio": 1.05371248,
+      "targetTotalEq": 170.2,
+      "totalBaseMass": 650,
+      "unconstrainedAchievedPct": 15
+    },
+    "30": {
+      "achievedPct": 30,
+      "achievedTotalEq": 192.4,
+      "addedDairyMass": 150,
+      "adjustableDistribution": [
+        {
+          "index": 1,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 1.05371248,
+      "algebraicAddedDairyMass": 150,
+      "algebraicFactor": 1.3,
+      "baseTotalEq": 148,
+      "beforeRatio": 1.05371248,
+      "compensationElementIds": [
+        "sour-cream"
+      ],
+      "compensationNames": [
+        "ساور كريم"
+      ],
+      "compositionFeasibleAddedDairyMass": 150,
+      "compositionLimitationReason": null,
+      "compositionLimited": false,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "share": 1
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 150,
+            "index": 0,
+            "ing": {
+              "acidity": "acidic",
+              "density": 1.05,
+              "displayName": "ساور كريم",
+              "fatFrac": 0.3,
+              "handling": {
+                "cold": true,
+                "maxTemp": 8,
+                "minTemp": 2,
+                "notes": "قد تحتاج تصفية 6–8 ساعات لثبات أعلى.",
+                "science": "تحتوي على بكتيريا lactic acid التي تخمر اللاكتوز"
+              },
+              "id": "sour-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 4.5,
+              "proteinFrac": 0.03,
+              "roles": [
+                "aqueous",
+                "fat-phase",
+                "stabilizer",
+                "flavor"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "pH": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "إذا صُفيت القشطة الحامضة فالماء الفعلي والكثافة التشغيلية يتغيران، لذلك يجب تحديث القراءة عملياً عند العمل بوصفة مصفاة."
+                ],
+                "referenceIds": [
+                  "usda_fdc"
+                ],
+                "summary": "ساور كريم/سميتانا كاملة الدسم تقريبية (~30% دهن). التصفية والبلد التجاري يغيران الماء والكثافة بوضوح.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.63
+            },
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "otherSolids": 0,
+            "protein": 15,
+            "solids": 185,
+            "sugar": 20,
+            "sweetnessEq": 4,
+            "water": 315,
+            "weight": 500
+          }
+        ],
+        "names": [
+          "ساور كريم"
+        ],
+        "solidsFrac": 0.37,
+        "totalMass": 500,
+        "waterFrac": 0.63
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "sour-cream",
+          "name": "ساور كريم",
+          "share": 1
+        }
+      ],
+      "factor": 1.3,
+      "fixedSweetNames": [
+        "ساور كريم"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": 30,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": 150,
+          "factor": 1.3
+        },
+        "compositionFeasible": {
+          "achievedPct": 30,
+          "addedDairyMass": 150,
+          "afterRatio": 1.05371248,
+          "factor": 1.3
+        }
+      },
+      "targetRatio": 1.05371248,
+      "targetTotalEq": 192.4,
+      "totalBaseMass": 650,
+      "unconstrainedAchievedPct": 30
+    },
+    "-15": {
+      "achievedPct": -14.594594595,
+      "achievedTotalEq": 126.4,
+      "addedDairyMass": 0,
+      "adjustableDistribution": [
+        {
+          "index": 1,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 0.984032883,
+      "algebraicAddedDairyMass": -75,
+      "algebraicFactor": 0.85,
+      "baseTotalEq": 148,
+      "beforeRatio": 1.05371248,
+      "compensationElementIds": [
+        "sour-cream"
+      ],
+      "compensationNames": [
+        "ساور كريم"
+      ],
+      "compositionFeasibleAddedDairyMass": 0,
+      "compositionLimitationReason": "negative-dairy",
+      "compositionLimited": true,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "share": 1
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 150,
+            "index": 0,
+            "ing": {
+              "acidity": "acidic",
+              "density": 1.05,
+              "displayName": "ساور كريم",
+              "fatFrac": 0.3,
+              "handling": {
+                "cold": true,
+                "maxTemp": 8,
+                "minTemp": 2,
+                "notes": "قد تحتاج تصفية 6–8 ساعات لثبات أعلى.",
+                "science": "تحتوي على بكتيريا lactic acid التي تخمر اللاكتوز"
+              },
+              "id": "sour-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 4.5,
+              "proteinFrac": 0.03,
+              "roles": [
+                "aqueous",
+                "fat-phase",
+                "stabilizer",
+                "flavor"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "pH": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "إذا صُفيت القشطة الحامضة فالماء الفعلي والكثافة التشغيلية يتغيران، لذلك يجب تحديث القراءة عملياً عند العمل بوصفة مصفاة."
+                ],
+                "referenceIds": [
+                  "usda_fdc"
+                ],
+                "summary": "ساور كريم/سميتانا كاملة الدسم تقريبية (~30% دهن). التصفية والبلد التجاري يغيران الماء والكثافة بوضوح.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.63
+            },
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "otherSolids": 0,
+            "protein": 15,
+            "solids": 185,
+            "sugar": 20,
+            "sweetnessEq": 4,
+            "water": 315,
+            "weight": 500
+          }
+        ],
+        "names": [
+          "ساور كريم"
+        ],
+        "solidsFrac": 0.37,
+        "totalMass": 500,
+        "waterFrac": 0.63
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "sour-cream",
+          "name": "ساور كريم",
+          "share": 1
+        }
+      ],
+      "factor": 0.85,
+      "fixedSweetNames": [
+        "ساور كريم"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": -15,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": -75,
+          "factor": 0.85
+        },
+        "compositionFeasible": {
+          "achievedPct": -14.594594595,
+          "addedDairyMass": 0,
+          "afterRatio": 0.984032883,
+          "factor": 0.85
+        }
+      },
+      "targetRatio": 1.05371248,
+      "targetTotalEq": 125.8,
+      "totalBaseMass": 650,
+      "unconstrainedAchievedPct": -14.594594595
+    },
+    "-30": {
+      "achievedPct": -29.189189189,
+      "achievedTotalEq": 104.8,
+      "addedDairyMass": 0,
+      "adjustableDistribution": [
+        {
+          "index": 1,
+          "ingredientId": "powdered-sugar",
+          "name": "سكر بودرة"
+        }
+      ],
+      "adjustableElementIds": [
+        "powdered-sugar"
+      ],
+      "adjustableNames": [
+        "سكر بودرة"
+      ],
+      "afterRatio": 0.914254074,
+      "algebraicAddedDairyMass": -150,
+      "algebraicFactor": 0.7,
+      "baseTotalEq": 148,
+      "beforeRatio": 1.05371248,
+      "compensationElementIds": [
+        "sour-cream"
+      ],
+      "compensationNames": [
+        "ساور كريم"
+      ],
+      "compositionFeasibleAddedDairyMass": 0,
+      "compositionLimitationReason": "negative-dairy",
+      "compositionLimited": true,
+      "dairyBlend": {
+        "distribution": [
+          {
+            "index": 0,
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "share": 1
+          }
+        ],
+        "eqPerGram": 0.008,
+        "items": [
+          {
+            "fat": 150,
+            "index": 0,
+            "ing": {
+              "acidity": "acidic",
+              "density": 1.05,
+              "displayName": "ساور كريم",
+              "fatFrac": 0.3,
+              "handling": {
+                "cold": true,
+                "maxTemp": 8,
+                "minTemp": 2,
+                "notes": "قد تحتاج تصفية 6–8 ساعات لثبات أعلى.",
+                "science": "تحتوي على بكتيريا lactic acid التي تخمر اللاكتوز"
+              },
+              "id": "sour-cream",
+              "lactose": 0.04,
+              "otherSolidsFrac": 0,
+              "pH": 4.5,
+              "proteinFrac": 0.03,
+              "roles": [
+                "aqueous",
+                "fat-phase",
+                "stabilizer",
+                "flavor"
+              ],
+              "scienceMeta": {
+                "basis": "reference-composition",
+                "confidence": "medium",
+                "fieldBasis": {},
+                "fieldConfidence": {
+                  "density": "low",
+                  "fatFrac": "medium",
+                  "pH": "medium",
+                  "waterFrac": "medium"
+                },
+                "notes": [
+                  "الألبان أكثر الفئات حساسية لاختلاف النوع التجاري، نسبة الدهن، التصفية، والثبات القوامي.",
+                  "إذا صُفيت القشطة الحامضة فالماء الفعلي والكثافة التشغيلية يتغيران، لذلك يجب تحديث القراءة عملياً عند العمل بوصفة مصفاة."
+                ],
+                "referenceIds": [
+                  "usda_fdc"
+                ],
+                "summary": "ساور كريم/سميتانا كاملة الدسم تقريبية (~30% دهن). التصفية والبلد التجاري يغيران الماء والكثافة بوضوح.",
+                "tags": [],
+                "variableFields": [
+                  "density",
+                  "waterFrac",
+                  "fatFrac",
+                  "pH"
+                ]
+              },
+              "starchFrac": 0,
+              "sugarFrac": 0.04,
+              "type": "dairy",
+              "waterFrac": 0.63
+            },
+            "ingredientId": "sour-cream",
+            "name": "ساور كريم",
+            "otherSolids": 0,
+            "protein": 15,
+            "solids": 185,
+            "sugar": 20,
+            "sweetnessEq": 4,
+            "water": 315,
+            "weight": 500
+          }
+        ],
+        "names": [
+          "ساور كريم"
+        ],
+        "solidsFrac": 0.37,
+        "totalMass": 500,
+        "waterFrac": 0.63
+      },
+      "dairyDistribution": [
+        {
+          "index": 0,
+          "ingredientId": "sour-cream",
+          "name": "ساور كريم",
+          "share": 1
+        }
+      ],
+      "factor": 0.7,
+      "fixedSweetNames": [
+        "ساور كريم"
+      ],
+      "mode": "keepSolidsWater",
+      "noCompositionChange": false,
+      "noCompositionChangeReason": null,
+      "requestedPct": -30,
+      "states": {
+        "algebraic": {
+          "addedDairyMass": -150,
+          "factor": 0.7
+        },
+        "compositionFeasible": {
+          "achievedPct": -29.189189189,
+          "addedDairyMass": 0,
+          "afterRatio": 0.914254074,
+          "factor": 0.7
+        }
+      },
+      "targetRatio": 1.05371248,
+      "targetTotalEq": 103.6,
+      "totalBaseMass": 650,
+      "unconstrainedAchievedPct": -29.189189189
+    }
+  }
+}
